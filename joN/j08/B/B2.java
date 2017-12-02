@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class B2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int[] arr = new int[4];
+		for(int i=0;i<arr.length;i++){
+			System.out.println("请输入一个数字");
+			int num = sc.nextInt();
+			arr[i]=num;
+		}
+		System.out.print(arr[0]+arr[3]+"\n"+(arr[1]+arr[2]));
+	}
+}

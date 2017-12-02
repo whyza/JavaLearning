@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class  A5
+{
+	public static void main(String[] args) 
+	{
+		String an = "";
+		Scanner sc = new Scanner(System.in);
+		do{
+			System.out.println("ÎÒ°®Äã£¬Äã°®ÎÒÂğ£¿");	
+			an = sc.next();
+		}while("Ï²»¶".equals(an));
+	}
+}
