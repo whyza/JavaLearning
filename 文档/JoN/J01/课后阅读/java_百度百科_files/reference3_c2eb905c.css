@@ -1,0 +1,21 @@
+.reinforce .viewRefer DT {
+	FONT-SIZE: 19px; FONT-FAMILY: 'Microsoft YaHei',sans-serif; BORDER-BOTTOM: #ccc 2px solid; FONT-WEIGHT: 200; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 0px !important; MARGIN: 0px; LINE-HEIGHT: 45px; PADDING-RIGHT: 0px !important
+}
+.viewRefer .reference UL LI A {
+	COLOR: #666
+}
+.viewRefer .reference UL LI {
+	COLOR: #aaa
+}
+.ref-index {
+	COLOR: #666
+}
+.collapse UL {
+	OVERFLOW: hidden; HEIGHT: 440px
+}
+.collapse .z-ref-toggle {
+	BACKGROUND-POSITION: 5px 8px; VISIBILITY: visible
+}
+.z-ref-toggle {
+	CURSOR: pointer; HEIGHT: 20px; BACKGROUND: url(/static/lemma/view/img/z-ref-toggle_b4eb769b.png) no-repeat -8px 8px; FLOAT: right; MARGIN: 20px 20px 0px 0px; WIDTH: 15px
+}

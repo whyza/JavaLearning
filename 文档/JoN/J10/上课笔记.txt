@@ -1,0 +1,50 @@
+选择
+冒泡
+-------------------------
+1-数组的默认问题。
+char=ASCII码值为0的字符
+int=0
+double=0.0
+boolean=flase;
+String=null;
+
+-----------------------
+String a="";
+String b=" ";
+String c=null;
+
+
+
+2-二维数组。
+
+声明：
+int a;
+int[] arr=new int[4];==arr.length
+int[][] brr=new int[栋数][层高];
+int[][] brr=new int[3][4];
+int a=1;
+int[] arr={1,2,3};
+int[][] brr={{1,2,3},{1,2,3},{1,2,3}};
+
+遍历：
+
+
+
+====================
+L	J	T	O	I
+Z	S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

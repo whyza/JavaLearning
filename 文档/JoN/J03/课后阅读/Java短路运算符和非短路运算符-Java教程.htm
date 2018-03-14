@@ -1,0 +1,820 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0058)http://www.blogjava.net/rosen/archive/2011/08/16/9956.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" ""><HTML><HEAD 
+id="Head"><META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<TITLE>	Java 短路运算符和非短路运算符 - 成都心情 - BlogJava </TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META name="keywords" id="metaKeywords" content="Java 短路运算符和非短路运算符">
+<META name="verify-v1" 
+content="pmMQ9161SoctN+e2ERPF8C5Rtz9HvjgD1YwF50gmxaI="><LINK href="Java短路运算符和非短路运算符-Java教程_files/common.css" 
+rel="stylesheet" type="text/css"><LINK id="MainCss" href="Java短路运算符和非短路运算符-Java教程_files/style.css" 
+rel="stylesheet" type="text/css"><LINK id="SecondaryCss" href="Java短路运算符和非短路运算符-Java教程_files/customcss.css" 
+rel="stylesheet" type="text/css"><LINK title="RSS" id="RSSLink" href="http://www.blogjava.net/rosen/rss.aspx" 
+rel="alternate" type="application/rss+xml">
+<META name="GENERATOR" content="MSHTML 10.00.9200.16721"></HEAD> 
+<BODY>
+<FORM name="Form1" id="Form1" onsubmit="javascript:return WebForm_OnSubmit();" 
+action="9956.html" method="post">
+<DIV><INPUT name="__EVENTTARGET" id="__EVENTTARGET" type="hidden"> <INPUT name="__EVENTARGUMENT" 
+id="__EVENTARGUMENT" type="hidden"> <INPUT name="__VIEWSTATE" id="&#10;__VIEWSTATE" 
+type="hidden"> </DIV>
+<SCRIPT type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+ 
+<SCRIPT src="Java短路运算符和非短路运算符-Java教程_files/WebResource.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT language="JavaScript">
+									function ctlent(evt,id)
+											{
+												if(evt.ctrlKey && evt.keyCode == 13)
+												{	
+													try
+													{
+														TempSave(id);
+													}
+													catch(ex)
+													{
+													}
+													finally
+													{
+													    __doPostBack('AjaxHolder$PostComment$btnSubmit','')
+													}
+												}
+		
+												}</SCRIPT>
+												 
+<SCRIPT language="JavaScript">function SetReplyAuhor(author){document.getElementById('AjaxHolder_PostComment_tbComment').value+="@"+author+"\n";document.getElementById('AjaxHolder_PostComment_tbComment').focus();return false}</SCRIPT>
+ 
+<SCRIPT src="Java短路运算符和非短路运算符-Java教程_files/ScriptResource.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java短路运算符和非短路运算符-Java教程_files/ScriptResource(1).js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java短路运算符和非短路运算符-Java教程_files/ScriptResource(2).js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</SCRIPT>
+         
+<SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-887492-1");
+pageTracker._trackPageview();
+</SCRIPT>
+ 
+<DIV id="top">
+<DIV>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD class="HeaderTitles">
+      <H1 class="HeaderTitle"><A class="HeaderMainTitle" id="Header1_HeaderTitle" 
+      href="http://www.blogjava.net/rosen/"><B>成都心情</B></A></H1>
+      <P id="tagline">专心做一件很重要的事情，blog暂停更新。</P></TD></TR></TBODY></TABLE></DIV>
+<DIV class="HeaderBar">
+<TABLE class="HeaderBar" id="HeaderBar" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD class="HeaderBarTab" nowrap="">&nbsp;<A id="Header1_MyLinks1_HomeLink" 
+      href="http://www.blogjava.net/">BlogJava</A>&nbsp;:: <A id="Header1_MyLinks1_MyHomeLink" 
+      href="http://www.blogjava.net/rosen/">首页</A>&nbsp;::&nbsp; :: <A id="Header1_MyLinks1_ContactLink" 
+      accesskey="9" 
+      href="http://www.blogjava.net/rosen/contact.aspx?id=1">联系</A>&nbsp;:: <A 
+      id="Header1_MyLinks1_Syndication" 
+      href="http://www.blogjava.net/rosen/rss">聚合</A> <A class="XMLLink" id="Header1_MyLinks1_XMLLink" 
+      href="http://www.blogjava.net/rosen/rss"><IMG style="border-width: 0px;" 
+      src="Java短路运算符和非短路运算符-Java教程_files/xml.gif"></A>&nbsp;:: <A id="Header1_MyLinks1_Admin" 
+      href="http://www.blogjava.net/rosen/admin/EditPosts.aspx">管理</A>&nbsp;:: 
+    </TD>
+    <TD><IMG align="absmiddle" id="Header1_BlueTab" style="border-width: 0px;" 
+      src="Java短路运算符和非短路运算符-Java教程_files/BlueTabRight.gif"></TD>
+    <TD width="100%" class="HeaderBarTabBack" nowrap="">
+      <DIV class="BlogStatsBar">
+      <TABLE class="BlogStatsBar">
+        <TBODY>
+        <TR>
+          <TD width="100%"></TD>
+          <TD class="BlogStatsBar" nowrap="">				&nbsp;				87 				 随笔&nbsp;::
+            				 2 文章				 ::				 478 评论				 ::				 1 Trackbacks
+      			 </TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV id="leftmenu" style="display: none;">
+<H3>公告</H3>
+<DIV class="News"><A href="http://creativecommons.org/licenses/by-sa/2.5/cn/" 
+target="_blank" rel="license"><IMG style="border-width: 0pt;" alt="Creative Commons License" 
+src="Java短路运算符和非短路运算符-Java教程_files/88x31.png"></A><BR>本作品采用<A href="http://creativecommons.org/licenses/by-sa/2.5/cn/" 
+target="_blank" rel="license">知识共享署名-相同方式共享 2.5 中国大陆许可协议</A>进行许可。 <A id="clustrMapsLink" 
+href="http://www2.clustrmaps.com/counter/maps.php?url=http://www.blogjava.net/rosen" 
+target="_blank"><IMG title="Locations of visitors to this page" id="clustrMapsImg" 
+style="border: 0px currentColor;" onerror="this.onerror=null; this.src='http://clustrmaps.com/images/clustrmaps-back-soon.jpg'; document.getElementById('clustrMapsLink').href='http://clustrmaps.com';" 
+alt="Locations of visitors to this page" src="Java短路运算符和非短路运算符-Java教程_files/index2.jpg"> 
+</A> </DIV>
+<H3>留言簿<SPAN style="font-size: 11px; font-weight: normal;">(11)</SPAN></H3>
+<UL>
+  <LI><A id="SingleColumn1_ctl00_lnkMessages" href="http://www.blogjava.net/rosen/Contact.aspx?id=1">给我留言</A>
+	 
+  <LI><A id="SingleColumn1_ctl00_lnkPublicMsgView" href="http://www.blogjava.net/rosen/default.aspx?opt=msg">查看公开留言</A>
+	 
+  <LI><A id="SingleColumn1_ctl00_lnkPrivateMsgView" href="http://www.blogjava.net/rosen/admin/MyMessages.aspx">查看私人留言</A>
+  	 </LI></UL>
+<H3>随笔分类<SPAN style="font-size: 11px; font-weight: normal;">(88)</SPAN></H3>
+<UL>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl01_Link" href="http://www.blogjava.net/rosen/category/2689.html">Java 
+  EE 服务器端(13)</A> <A title="Subscribe to Java EE 服务器端(13)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl01_RssLink" 
+  href="http://www.blogjava.net/rosen/category/2689.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl02_Link" href="http://www.blogjava.net/rosen/category/2686.html">Java 
+  EE 表现层及容器(12)</A> <A title="Subscribe to Java EE 表现层及容器(12)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl02_RssLink" 
+  href="http://www.blogjava.net/rosen/category/2686.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl03_Link" href="http://www.blogjava.net/rosen/category/5482.html">Java 
+  ME(1)</A> <A title="Subscribe to Java ME(1)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl03_RssLink" 
+  href="http://www.blogjava.net/rosen/category/5482.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl04_Link" href="http://www.blogjava.net/rosen/category/2690.html">Java 
+  基础(10)</A> <A title="Subscribe to Java 基础(10)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl04_RssLink" 
+  href="http://www.blogjava.net/rosen/category/2690.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl05_Link" href="http://www.blogjava.net/rosen/category/7219.html">MatLab(1)</A> 
+  <A title="Subscribe to MatLab(1)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl05_RssLink" 
+  href="http://www.blogjava.net/rosen/category/7219.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl06_Link" href="http://www.blogjava.net/rosen/category/2688.html">O/R 
+  Mapping(13)</A> <A title="Subscribe to O/R Mapping(13)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl06_RssLink" 
+  href="http://www.blogjava.net/rosen/category/2688.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl07_Link" href="http://www.blogjava.net/rosen/category/13739.html">Versant 
+  db4o 中文项目(12)</A> <A title="Subscribe to Versant db4o 中文项目(12)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl07_RssLink" 
+  href="http://www.blogjava.net/rosen/category/13739.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl08_Link" href="http://www.blogjava.net/rosen/category/2685.html">五花八门(8)</A> 
+  <A title="Subscribe to 五花八门(8)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl08_RssLink" 
+  href="http://www.blogjava.net/rosen/category/2685.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl09_Link" href="http://www.blogjava.net/rosen/category/2684.html">工作流(10)</A> 
+  <A title="Subscribe to 工作流(10)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl09_RssLink" 
+  href="http://www.blogjava.net/rosen/category/2684.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl10_Link" href="http://www.blogjava.net/rosen/category/2682.html">数据库(2)</A> 
+  <A title="Subscribe to 数据库(2)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl10_RssLink" 
+  href="http://www.blogjava.net/rosen/category/2682.html/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl11_Link" href="http://www.blogjava.net/rosen/category/2683.html">模式与策略(6)</A> 
+  <A title="Subscribe to 模式与策略(6)" id="SingleColumn1_Categories_CatList_ctl00_LinkList_ctl11_RssLink" 
+  href="http://www.blogjava.net/rosen/category/2683.html/rss">(rss)</A></LI></UL>
+<H3>随笔档案<SPAN style="font-size: 11px; font-weight: normal;">(88)</SPAN></H3>
+<UL>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl01_Link" href="http://www.blogjava.net/rosen/archive/2010/07.html">2010年7月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl02_Link" href="http://www.blogjava.net/rosen/archive/2010/06.html">2010年6月 
+  (2)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl03_Link" href="http://www.blogjava.net/rosen/archive/2010/05.html">2010年5月 
+  (3)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl04_Link" href="http://www.blogjava.net/rosen/archive/2010/03.html">2010年3月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl05_Link" href="http://www.blogjava.net/rosen/archive/2010/01.html">2010年1月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl06_Link" href="http://www.blogjava.net/rosen/archive/2009/10.html">2009年10月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl07_Link" href="http://www.blogjava.net/rosen/archive/2009/09.html">2009年9月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl08_Link" href="http://www.blogjava.net/rosen/archive/2009/07.html">2009年7月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl09_Link" href="http://www.blogjava.net/rosen/archive/2009/06.html">2009年6月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl10_Link" href="http://www.blogjava.net/rosen/archive/2009/03.html">2009年3月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl11_Link" href="http://www.blogjava.net/rosen/archive/2009/02.html">2009年2月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl12_Link" href="http://www.blogjava.net/rosen/archive/2008/12.html">2008年12月 
+  (2)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl13_Link" href="http://www.blogjava.net/rosen/archive/2008/09.html">2008年9月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl14_Link" href="http://www.blogjava.net/rosen/archive/2008/08.html">2008年8月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl15_Link" href="http://www.blogjava.net/rosen/archive/2008/07.html">2008年7月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl16_Link" href="http://www.blogjava.net/rosen/archive/2008/06.html">2008年6月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl17_Link" href="http://www.blogjava.net/rosen/archive/2008/04.html">2008年4月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl18_Link" href="http://www.blogjava.net/rosen/archive/2008/03.html">2008年3月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl19_Link" href="http://www.blogjava.net/rosen/archive/2008/01.html">2008年1月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl20_Link" href="http://www.blogjava.net/rosen/archive/2007/12.html">2007年12月 
+  (2)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl21_Link" href="http://www.blogjava.net/rosen/archive/2007/10.html">2007年10月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl22_Link" href="http://www.blogjava.net/rosen/archive/2007/09.html">2007年9月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl23_Link" href="http://www.blogjava.net/rosen/archive/2007/08.html">2007年8月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl24_Link" href="http://www.blogjava.net/rosen/archive/2007/06.html">2007年6月 
+  (2)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl25_Link" href="http://www.blogjava.net/rosen/archive/2007/05.html">2007年5月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl26_Link" href="http://www.blogjava.net/rosen/archive/2007/04.html">2007年4月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl27_Link" href="http://www.blogjava.net/rosen/archive/2007/02.html">2007年2月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl28_Link" href="http://www.blogjava.net/rosen/archive/2007/01.html">2007年1月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl29_Link" href="http://www.blogjava.net/rosen/archive/2006/12.html">2006年12月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl30_Link" href="http://www.blogjava.net/rosen/archive/2006/11.html">2006年11月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl31_Link" href="http://www.blogjava.net/rosen/archive/2006/10.html">2006年10月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl32_Link" href="http://www.blogjava.net/rosen/archive/2006/09.html">2006年9月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl33_Link" href="http://www.blogjava.net/rosen/archive/2006/08.html">2006年8月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl34_Link" href="http://www.blogjava.net/rosen/archive/2006/07.html">2006年7月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl35_Link" href="http://www.blogjava.net/rosen/archive/2006/06.html">2006年6月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl36_Link" href="http://www.blogjava.net/rosen/archive/2006/05.html">2006年5月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl37_Link" href="http://www.blogjava.net/rosen/archive/2006/04.html">2006年4月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl38_Link" href="http://www.blogjava.net/rosen/archive/2006/03.html">2006年3月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl39_Link" href="http://www.blogjava.net/rosen/archive/2006/02.html">2006年2月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl40_Link" href="http://www.blogjava.net/rosen/archive/2006/01.html">2006年1月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl41_Link" href="http://www.blogjava.net/rosen/archive/2005/12.html">2005年12月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl42_Link" href="http://www.blogjava.net/rosen/archive/2005/11.html">2005年11月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl43_Link" href="http://www.blogjava.net/rosen/archive/2005/10.html">2005年10月 
+  (1)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl44_Link" href="http://www.blogjava.net/rosen/archive/2005/09.html">2005年9月 
+  (2)</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl01_LinkList_ctl45_Link" href="http://www.blogjava.net/rosen/archive/2005/08.html">2005年8月 
+  (37)</A> </LI></UL>
+<H3>文章分类<SPAN style="font-size: 11px; font-weight: normal;">(2)</SPAN></H3>
+<UL>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl02_LinkList_ctl01_Link" href="http://www.blogjava.net/rosen/category/3474.html">我的收藏(2)</A> 
+  <A title="Subscribe to 我的收藏(2)" id="SingleColumn1_Categories_CatList_ctl02_LinkList_ctl01_RssLink" 
+  href="http://www.blogjava.net/rosen/category/3474.html/rss">(rss)</A></LI></UL>
+<H3>友情链接</H3>
+<UL>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl01_Link" href="http://www.blogjava.net/openssl/" 
+  target="_blank">david.turing</A> <A title="Subscribe to david.turing" id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl01_RssLink" 
+  href="http://www.blogjava.net/openssl/Rss.aspx">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl02_Link" href="http://blog.csdn.net/wyingquan" 
+  target="_blank">wyingquan的专栏</A> <A title="Subscribe to wyingquan的专栏" id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl02_RssLink" 
+  href="http://blog.csdn.net/wyingquan/Rss.aspx">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl03_Link" href="http://yfeng.cn/" 
+  target="_blank">俺的猪窝~！@</A> </LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl04_Link" href="http://spaces.msn.com/members/Deodar/" 
+  target="_blank">喜马拉雅的雪杉</A> <A title="Subscribe to 喜马拉雅的雪杉" id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl04_RssLink" 
+  href="http://spaces.msn.com/members/Deodar/feed.rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl05_Link" href="http://www.blogjava.net/mmwy" 
+  target="_blank">无聊人士</A> <A title="Subscribe to 无聊人士" id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl05_RssLink" 
+  href="http://www.blogjava.net/mmwy/Rss.aspx">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl06_Link" href="http://www.blogjava.net/juleven" 
+  target="_blank">竹十一</A> <A title="Subscribe to 竹十一" id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl06_RssLink" 
+  href="http://www.blogjava.net/juleven/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl07_Link" href="http://www.cnblogs.com/xd125" 
+  target="_blank">老刘忙不忙</A> <A title="Subscribe to 老刘忙不忙" id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl07_RssLink" 
+  href="http://www.cnblogs.com/xd125/rss">(rss)</A></LI>
+  <LI><A id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl08_Link" href="http://blogger.org.cn/blog/blog.asp?name=hongrui" 
+  target="_blank">邢红瑞的blog</A> <A title="Subscribe to 邢红瑞的blog" id="SingleColumn1_Categories_CatList_ctl03_LinkList_ctl08_RssLink" 
+  href="http://blogger.org.cn/blog/rss2.asp?name=hongrui">(rss)</A></LI></UL>
+<H3>积分与排名</H3>
+<UL>
+  <LI>		积分 -		 381017	 
+  <LI>排名 -		 62	 </LI></UL>
+<H3>最新评论	 <A id="SingleColumn1__26d0041_RSSHyperlink1" href="http://www.blogjava.net/rosen/CommentsRSS.aspx"><IMG 
+style="border-width: 0px;" src="Java短路运算符和非短路运算符-Java教程_files/xml.gif"></A></H3>
+<DIV class="RecentComment">
+<UL>
+  <LI style="-ms-word-break: break-all;"><A id="SingleColumn1__26d0041_CommentList_ctl01_Hyperlink1" 
+  href="http://www.blogjava.net/rosen/archive/2013/06/16/321575.html#400612">1.&nbsp;re: 
+  使用Memory Analyzer tool(MAT)分析内存泄漏（一）</A>			 </LI>
+  <LI style="-ms-word-break: break-all;">				第一张图没了。			 </LI>
+  <LI style="text-align: right; margin-right: 4px;">--woyaowenzi</LI>
+  <LI style="-ms-word-break: break-all;"><A id="SingleColumn1__26d0041_CommentList_ctl02_Hyperlink1" 
+  href="http://www.blogjava.net/rosen/archive/2013/06/16/323522.html#400611">2.&nbsp;re: 
+  使用Memory Analyzer tool(MAT)分析内存泄漏（二）</A>			 </LI>
+  <LI style="-ms-word-break: break-all;">
+  				好文章啊。忍不住留言。和大神合个影，咔嚓。。。<BR>后面的一部分没怎么看懂。			 </LI>
+  <LI style="text-align: right; margin-right: 4px;">--woyaowenzi</LI>
+  <LI style="-ms-word-break: break-all;"><A id="SingleColumn1__26d0041_CommentList_ctl03_Hyperlink1" 
+  href="http://www.blogjava.net/rosen/archive/2013/06/10/13558.html#400468">3.&nbsp;re: 
+  Oracle 9i 中的 SQL（转贴）</A>			 </LI>
+  <LI style="-ms-word-break: break-all;">qwq			 </LI>
+  <LI style="text-align: right; margin-right: 4px;">				--2</LI>
+  <LI style="-ms-word-break: break-all;"><A id="SingleColumn1__26d0041_CommentList_ctl04_Hyperlink1" 
+  href="http://www.blogjava.net/rosen/archive/2013/06/10/210399.html#400465">4.&nbsp;re: 
+  OSGi起步(OSGi for Beginners)[未登录]</A>			 </LI>
+  <LI style="-ms-word-break: break-all;">评论内容较长,点击标题查看			 </LI>
+  <LI style="text-align: right; margin-right: 4px;">--alice</LI>
+  <LI style="-ms-word-break: break-all;"><A id="SingleColumn1__26d0041_CommentList_ctl05_Hyperlink1" 
+  href="http://www.blogjava.net/rosen/archive/2013/03/19/9955.html#396646">5.&nbsp;re: 
+  Java 中的位运算</A>			 </LI>
+  <LI style="-ms-word-break: break-all;">				评论内容较长,点击标题查看			 </LI>
+  <LI style="text-align: right; margin-right: 4px;">--asd</LI></UL></DIV>
+<H3>阅读排行榜</H3>
+<DIV class="RecentComment">
+<UL style="-ms-word-break: break-all;">
+  <LI><A id="SingleColumn1__14652a_TopList_ctl01_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2010/06/13/323522.html">1.&nbsp;使用Memory 
+  Analyzer tool(MAT)分析内存泄漏（二）(29731)</A>			 </LI>
+  <LI><A id="SingleColumn1__14652a_TopList_ctl02_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2010/05/21/321575.html">2.&nbsp;使用Memory 
+  Analyzer tool(MAT)分析内存泄漏（一）(25298)</A>			 </LI>
+  <LI><A id="SingleColumn1__14652a_TopList_ctl03_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2005/08/12/9955.html">3.&nbsp;Java 
+  中的位运算(25202)</A>			 </LI>
+  <LI><A id="SingleColumn1__14652a_TopList_ctl04_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2007/06/04/121994.html">4.&nbsp;CentOS 
+  5 Apache,Java,Tomcat,PostgreSQL...安装笔记（不断更新中）(12386)</A>			 </LI>
+  <LI><A id="SingleColumn1__14652a_TopList_ctl05_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2005/08/12/9879.html">5.&nbsp;RBAC 
+  模型初探(10753)</A>			 </LI></UL></DIV>
+<H3>评论排行榜</H3>
+<DIV class="RecentComment">
+<UL style="-ms-word-break: break-all;">
+  <LI><A id="SingleColumn1__2392feb_TopList_ctl01_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2008/03/21/187814.html">1.&nbsp;德国申根商务签证攻略（成都版）(36)</A>
+  			 </LI>
+  <LI><A id="SingleColumn1__2392feb_TopList_ctl02_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2005/08/12/9880.html">2.&nbsp;OSWorkflow 
+  探索(29)</A>			 </LI>
+  <LI><A id="SingleColumn1__2392feb_TopList_ctl03_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2008/07/25/217210.html">3.&nbsp;北漂找工作经历(26)</A>
+  			 </LI>
+  <LI><A id="SingleColumn1__2392feb_TopList_ctl04_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2006/06/15/53094.html">4.&nbsp;开源面向对象数据库 
+  db4o 之旅: 初识 db4o“db4o 之旅（一）”(21)</A>			 </LI>
+  <LI><A id="SingleColumn1__2392feb_TopList_ctl05_Hyperlink1" href="http://www.blogjava.net/rosen/archive/2006/12/30/91052.html">5.&nbsp;开源面向对象数据库 
+  db4o 之旅: 深入 db4o “db4o 之旅（三）”(17)</A>			 </LI></UL></DIV><!--
+	<br><br>
+	<p align="center">
+	<a href="http://www.WebHost4Life.com/default.asp?refid=MarkHWagner">
+	<img src="http://www.WebHost4Life.com/images/banner3.gif" width="120"
+	height="60" border="0" alt="Join WebHost4Life.com"></a>
+	</p>
+--> 
+</DIV>
+<DIV id="main">
+<DIV class="post">
+<DIV class="postTitle"><A id="viewpost1_TitleUrl" href="http://www.blogjava.net/rosen/archive/2005/08/12/9956.html">Java 
+短路运算符和非短路运算符</A>	 </DIV>
+<DIV class="postText">		短路运算符就是我们常用的“&amp;&amp;”、“||”，一般称为“条件操作”。  
+<P></P>
+<TABLE width="528" height="162" style="width: 528px; height: 162px;" border="1" 
+cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD><FONT size="2">class Logic{<BR>&nbsp;&nbsp;&nbsp; public ststic void 
+      main(String[] args){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+      a=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+      b=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if(a&lt;b &amp;&amp; 
+      b&lt;a/0){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      System.out.println("Oh，That's 
+      Impossible!!!");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      }else{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      System.out.println("That's in my 
+      control.");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      }<BR>&nbsp;&nbsp;&nbsp; 
+}<BR>}</FONT></TD></TR></TBODY></TABLE><BR>&nbsp;&nbsp;&nbsp; 
+“&amp;&amp;”运算符检查第一个表达式是否返回“false”，如果是“false”则结果必为“false”，不再检查其他内容。<BR>“a/0”是个明显的错误！但短路运算“&amp;&amp;”先判断“a&lt;b”，返回“false”，遂造成短路，也就不进行“a/0”操作了，程序会打出"That's 
+in my 
+control."。这个时候，交换一下“&amp;&amp;”左右两边的表达式，程序立即抛出异常“java.lang.ArithmeticException: 
+/ by zero”。
+<P></P>
+<TABLE width="527" height="100" style="width: 527px; height: 100px;" border="1" 
+cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD>
+      <P><FONT size="2">class Logic{<BR>&nbsp;&nbsp;&nbsp; public ststic void 
+      main(String[] args){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+      a=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+      b=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if(a==b || 
+      b&lt;a/0){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      System.out.println("That's in my 
+      control.");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      }else{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      System.out.println("Oh，That's 
+      Impossible!!!");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      }<BR>&nbsp;&nbsp;&nbsp; 
+}<BR>}</FONT></P></TD></TR></TBODY></TABLE><BR>&nbsp;&nbsp;&nbsp; 
+“||”运算符检查第一个表达式是否返回“true”，如果是“true”则结果必为“true”，不再检查其他内容。<BR>“a/0”是个明显的错误！但短路运算“||”先执行“a==b”判断，返回“true”，遂造成短路，也就不进行“a/0”操作了，程序会打出"That's 
+in my control."。这个时候，交换一下“||”左右两边的表达式，程序立即抛出异常“java.lang.ArithmeticException: / 
+by zero”。
+<P><BR>非短路运算符包括 “&amp; 与”、“| 或”、“^ 异或”，一般称为“逻辑操作”</P>
+<P></P>
+<TABLE width="525" height="176" style="width: 525px; height: 176px;" border="1" 
+cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD>
+      <P><FONT size="2">class Logic{<BR>&nbsp;&nbsp;&nbsp; public ststic void 
+      main(String[] args){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+      a=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+      b=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if(a&lt;b &amp; 
+      b&lt;a/0){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      System.out.println("Oh，That's 
+      Impossible!!!");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      }else{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      System.out.println("That's in my 
+      control.");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      }<BR>&nbsp;&nbsp;&nbsp; 
+}<BR>}</FONT></P></TD></TR></TBODY></TABLE><BR>&nbsp;&nbsp;&nbsp; 
+“&amp;”运算符不会造成短路，它会认认真真的检查每一个表达式，虽然“a&lt;b”已经返回“flase”了，它还是会继续检查其他内容，以至于最终抛出异常“java.lang.ArithmeticException: 
+/ by zero”。<BR>&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+<TABLE width="522" height="164" style="width: 522px; height: 164px;" border="1" 
+cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD><FONT size="2">class Logic{<BR>&nbsp;&nbsp;&nbsp; public ststic void 
+      main(String[] args){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+      a=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int 
+      b=1;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if(a==b&nbsp;| 
+      b&lt;a/0){<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      System.out.println("That's in my 
+      control.");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      }else{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      System.out.println("Oh，That's 
+      Impossible!!!");<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      }<BR>&nbsp;&nbsp;&nbsp; 
+}<BR>}</FONT></TD></TR></TBODY></TABLE><BR>&nbsp;&nbsp;&nbsp; 
+同理，“|”运算符也不会造成短路，虽然“a==b”已经返回“true”了，它还是会继续检查其他内容，以至于最终抛出异常“java.lang.ArithmeticException: 
+/ by zero”。
+<P>&nbsp;&nbsp;&nbsp; “^”运算符道理是一样的，就不在这里罗索了。</P>
+<P>&nbsp;&nbsp;&nbsp; 
+最后。短路运算符只能用于逻辑表达式内，非短路运算符可用于位表达式和逻辑表达式内。也可以说：短路运算只能操作布尔型的，而非短路运算不仅可以操作布尔型，而且可以操作数值型。<BR><BR><BR><STRONG><FONT 
+color="#ff0000" size="2">请注意！引用、转贴本文应注明原作者：Rosen Jiang 以及出处：</FONT></STRONG><A 
+href="http://www.blogjava.net/rosen"><FONT color="#ff0000" face="宋体" 
+size="2"><STRONG>http://www.blogjava.net/rosen</STRONG></FONT></A></P></DIV>
+<DIV class="postfoot">		posted on 2005-08-12 15:46 <A href="http://www.blogjava.net/rosen/">Rosen</A> 
+阅读(1601) <A href="http://www.blogjava.net/rosen/archive/2011/08/16/9956.html#Post">评论(1)</A> 
+&nbsp;<A 
+href="http://www.blogjava.net/rosen/admin/EditPosts.aspx?postid=9956">编辑</A> 
+&nbsp;<A href="http://www.blogjava.net/rosen/AddToFavorite.aspx?id=9956">收藏</A>  
+所属分类: <A href="http://www.blogjava.net/rosen/category/2690.html">Java 基础</A> 
+	</DIV></DIV><IMG width="1" height="1" src="Java短路运算符和非短路运算符-Java教程_files/9956.jpg"> <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://www.blogjava.net/rosen/archive/2005/08/12/9956.html"
+dc:identifier="http://www.blogjava.net/rosen/archive/2005/08/12/9956.html"
+dc:title="Java 短路运算符和非短路运算符"
+trackback:ping="http://www.blogjava.net/rosen/services/trackbacks/9956.aspx" />
+</rdf:RDF>
+--> 
+<SCRIPT type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('AjaxHolder$scriptmanager1', document.getElementById('Form1'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tAjaxHolder$UpdatePanel1'], [], [], 90);
+//]]>
+</SCRIPT>
+ 
+<DIV id="AjaxHolder_UpdatePanel1"><A name="pagedcomment"></A> <A 
+name="评论"><BR></A>
+<DIV id="comments"><A name="评论">	 
+<H3>评论</H3></A>
+<DIV class="post"><A name="评论">								</A>
+<DIV class="postTitle"><A name="评论">						 <A title="permalink: fake rolexes for sale" 
+href="http://www.blogjava.net/rosen/archive/2011/08/16/9956.html#343359">#</A>&nbsp;<A 
+name="343359"></A>fake rolexes for sale<A name="Post"></A>							 <SPAN>
+								2011-01-22 09:17							 </SPAN>						 <A id="AjaxHolder_Comments_CommentList_ctl00_NameLink" 
+href="http://www.tagwatch.org/" target="_blank">fake rolexes for sale</A>
+					 </DIV>
+<DIV class="postText">						Another stylish handbag by discipline rack up 
+considering a casual-chic &nbsp;&nbsp;<A onclick='return SetReplyAuhor("fake rolexes for sale")' 
+href="http://www.blogjava.net/rosen/archive/2011/08/16/9956.html#post">回复</A>&nbsp;&nbsp;<A 
+title="查看该作者发表过的评论" href="http://www.blogjava.net/comment?author=fake+rolexes+for+sale" 
+target="_blank">更多评论</A>						 <BR><A id="AjaxHolder_Comments_CommentList_ctl00_DeleteLink" 
+href="javascript:__doPostBack('AjaxHolder$Comments$CommentList$ctl00$DeleteLink','')"></A>&nbsp;&nbsp;<A 
+id="AjaxHolder_Comments_CommentList_ctl00_EditLink"></A>
+					 </DIV></DIV><BR></DIV>
+<STYLE>td { font-size: 12px }
+.commentTextBox 
+{ 
+    font-family : Verdana; 
+    font-size: 13px;
+ }
+</STYLE>
+ <!--Beging Temp Save--> 
+<STYLE>.userData { BEHAVIOR: url(#default#userdata) }
+	</STYLE>
+ 
+<DIV class="userData" id="CommentsPersistDiv"></DIV>
+<SCRIPT type="text/javascript">
+function pageLoad()
+{
+    Sys.WebForms.PageRequestManager.getInstance().add_initializeRequest(handleInitializeRequest);
+    //Sys.WebForms.PageRequestManager.getInstance().add_endRequest(handleEndRequest);
+}
+
+function handleInitializeRequest(sender, args)
+{
+    var prm = Sys.WebForms.PageRequestManager.getInstance();
+    var eid = args.get_postBackElement().id;
+    if (eid.indexOf("DeleteLink")>0) 
+    {
+       args.get_postBackElement().innerHTML = "<font color='red'>正在删除...</font>";         
+    }    
+    else if (eid.indexOf("btnSubmit")>0) 
+    {
+       document.getElementById("AjaxHolder_PostComment_ltSubmitMsg").innerHTML="正在提交...";
+       document.getElementById("AjaxHolder_PostComment_btnSubmit").disabled = true;       
+    }   
+    else if(eid.indexOf("refreshList")>0)
+    {
+        document.getElementById("AjaxHolder_PostComment_refreshList").innerHTML="<font color='red'>正在刷新...</font>";
+    }
+   
+}	
+
+function TempSave(ElementID)
+{
+	try
+	{
+	CommentsPersistDiv.setAttribute("CommentContent",document.getElementById(ElementID).value);
+	CommentsPersistDiv.save("CommentXMLStore");
+	}
+	catch(ex)
+	{
+	}
+	
+}
+function Restore(ElementID)
+{
+	CommentsPersistDiv.load("CommentXMLStore");
+	document.getElementById(ElementID).value=CommentsPersistDiv.getAttribute("CommentContent");
+}	
+			
+			
+</SCRIPT>
+ <!--Ene TempSave--> 
+<DIV id="divRefreshComments" style="text-align: right; font-size: 12px; margin-right: 10px; margin-bottom: 5px;"><A 
+href="http://www.blogjava.net/RequireRegister.aspx">新用户注册</A>&nbsp;&nbsp;<A id="AjaxHolder_PostComment_refreshList" 
+href="javascript:__doPostBack('AjaxHolder$PostComment$refreshList','')">刷新评论列表</A>&nbsp;&nbsp;</DIV>
+<DIV class="commentform"><SPAN id="AjaxHolder_PostComment_ltSubmitMsg" style="color: red;"></SPAN> 
+<BR><A name="Feedback"></A>	 
+<DIV id="AjaxHolder_PostComment_divCommnentArea"></DIV>
+<TABLE border="0" cellspacing="1" cellpadding="1">
+  <TBODY>
+  <TR>
+    <TD id="AjaxHolder_PostComment_tdOnCommentForm" style="line-height: 1.5;" 
+    colspan="3"><A href="http://q.cnblogs.com/" 
+      target="_blank">程序员问答平台，解决您的技术难题</A><BR><!--<a href="http://zt.cnblogs.com/training/2012/" target="_blank">国家职业资格证书-Java高级程序设计员免费培训（上海）</a>-->
+      		 <!--<div>
+		技术专题：<br/>
+		<a href="http://kb.cnblogs.com/zt/jquery/" title="jQuery" target="_blank">jQuery</a>&nbsp; &nbsp;<a href="http://kb.cnblogs.com/zt/android/" title="Android" target="_blank">Android</a>&nbsp; &nbsp;<a href="http://kb.cnblogs.com/zt/ipad/" title="iPad" target="_blank">iPad</a>
+		</div>-->
+      		 </TD></TR>
+  <TR>
+    <TD colspan="3"></TD></TR>
+  <TR>
+    <TD width="75"></TD>
+    <TD></TD>
+    <TD></TD></TR>
+  <TR>
+    <TD></TD>
+    <TD colspan="2"><A href="http://www.cnblogs.com/" 
+      target="_blank">博客园</A>&nbsp;  <A href="http://q.cnblogs.com/" target="_blank">博问</A>&nbsp; 
+      <A href="http://news.cnblogs.com/" target="_blank">IT新闻</A>&nbsp; <!--<a href="http://home.cnblogs.com/ing/" target="_blank">闪存</a>&nbsp;  <a href="http://a4.yeshj.com/rd/36007/" target="_blank">学英语</a>&nbsp;  --><A 
+      href="http://job.cnblogs.com/cate-java_programmer/" 
+      target="_blank">Java程序员招聘</A>			 </TD></TR>
+  <TR>
+    <TD width="55">标题</TD>
+    <TD><INPUT name="AjaxHolder$PostComment$tbTitle" class="commenttb" id="AjaxHolder_PostComment_tbTitle" 
+      style="width: 320px;" type="text" value="re: Java 短路运算符和非短路运算符"></TD>
+    <TD><SPAN id="AjaxHolder_PostComment_RequiredFieldValidator1" style="color: red; visibility: hidden;">请输入标题</SPAN></TD></TR>
+  <TR>
+    <TD>姓名</TD>
+    <TD><INPUT name="AjaxHolder$PostComment$tbName" class="commenttb" id="AjaxHolder_PostComment_tbName" 
+      style="width: 320px;" type="text"></TD>
+    <TD><SPAN id="AjaxHolder_PostComment_RequiredFieldValidator2" style="color: red; visibility: hidden;">请输入你的姓名</SPAN></TD></TR>
+  <TR>
+    <TD>主页</TD>
+    <TD><INPUT name="AjaxHolder$PostComment$tbUrl" class="commenttb" id="AjaxHolder_PostComment_tbUrl" 
+      style="width: 320px;" type="text"></TD>
+    <TD><FONT face="宋体"></FONT></TD></TR>
+  <TR>
+    <TD align="left" colspan="3">
+      <TABLE class="CommentForm" id="AjaxHolder_PostComment_tbCaptchaImage" 
+      border="0" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD colspan="3"><SPAN id="AjaxHolder_PostComment_Requiredfieldvalidator4" 
+            style="color: red; display: none;">请输入验证码</SPAN>							 <SPAN id="AjaxHolder_PostComment_lblImage" 
+            style="color: red; font-weight: bold;"></SPAN>						 </TD></TR>
+        <TR>
+          <TD width="78">验证码</TD>
+          <TD><INPUT name="AjaxHolder$PostComment$CodeNumberTextBox" id="AjaxHolder_PostComment_CodeNumberTextBox" 
+            type="text">*&nbsp;&nbsp;<IMG src="Java短路运算符和非短路运算符-Java教程_files/JpegImage.jpg"></TD>
+          <TD align="left"></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD colspan="3">内容(请不要发表任何与政治相关的内容)				 <SPAN id="AjaxHolder_PostComment_RequiredFieldValidator3" 
+      style="color: red; visibility: hidden;">请输入评论内容</SPAN><BR><TEXTAREA name="AjaxHolder$PostComment$tbComment" class="commentTextBox" id="AjaxHolder_PostComment_tbComment" style="width: 480px; height: 220px;" onkeydown="ctlent(event,'AjaxHolder_PostComment_tbComment')" rows="10" cols="50"></TEXTAREA></TD></TR>
+  <TR>
+    <TD colspan="3"><SPAN id="AjaxHolder_PostComment_Message" style="color: red;"></SPAN>
+      		 </TD>
+  <TR>
+    <TD colspan="3"><INPUT name="AjaxHolder$PostComment$chkRemember" tabindex="-1" 
+      id="AjaxHolder_PostComment_chkRemember" type="checkbox" 
+      checked="checked"><LABEL for="AjaxHolder_PostComment_chkRemember">Remember 
+      Me?</LABEL></TD></TR>
+  <TR>
+    <TD height="23"><INPUT name="AjaxHolder$PostComment$btnSubmit" class="commentButton" id="AjaxHolder_PostComment_btnSubmit" onclick="TempSave('AjaxHolder_PostComment_tbComment');WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;AjaxHolder$PostComment$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" type="submit" value="提交">
+      				 </TD>
+    <TD height="23" colspan="2">&nbsp;				<A id="AjaxHolder_PostComment_lnkLogin" 
+      href="http://www.blogjava.net/login.aspx?ReturnURL=http://www.blogjava.net/rosen/archive/2011/08/16/9956.html&amp;SourceURL=/rosen/archive/2011/08/16/9956.html">登录</A>&nbsp;&nbsp;<!--<a id="AjaxHolder_PostComment_linkLoginComment" OnClick="if(document.getElementById('AjaxHolder_PostComment_tbComment').value != '') return confirm('未提交的评论内容将会丢失, 你真的要进入高级评论吗?');" href="http://www.blogjava.net/rosen/archive/2011/08/16/9956.html?login=1#Post">使用高级评论</a>&nbsp;&nbsp;<a href="http://www.blogjava.net/RequireRegister.aspx">新用户注册</a>&nbsp;&nbsp;<A href="#Top">返回页首</A>&nbsp;&nbsp;<a id="AjaxHolder_PostComment_lbRestore" OnClick="Restore('AjaxHolder_PostComment_tbComment'); return false;" href="/rosen/archive/2011/08/16/9956.html#Post">恢复上次提交</a>&nbsp;&nbsp;-->&nbsp;&nbsp;&nbsp;&nbsp;
+      				</TD></TR>
+  <TR>
+    <TD colspan="3"><LABEL 
+  class="CtrlEnter">[使用Ctrl+Enter键可以直接提交]</LABEL></TD></TR>
+  <TR>
+    <TD colspan="3"><!--该文被作者在 2007-12-02 17:29 编辑过--></TD></TR><!--
+		<TR>
+			<TD colSpan="3" height="5"></TD>
+		</TR>	
+		-->	
+  		
+  <TR>
+    <TD colspan="3">
+<SCRIPT type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</SCRIPT>
+       
+<SCRIPT type="text/javascript">
+googletag.cmd.push(function() {
+googletag.defineSlot('/1090369/blogjava_blogpost_bottom', [300, 250], 'div-gpt-ad-1364133350381-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</SCRIPT>
+       <!-- blogjava_blogpost_bottom --> 
+      <DIV id="div-gpt-ad-1364133350381-0" style="width: 300px; height: 250px;">
+<SCRIPT type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1364133350381-0'); });
+</SCRIPT>
+       </DIV><BR></TD></TR>
+  <TR>
+    <TD colspan="3"></TD></TR>
+  <TR>
+    <TD colspan="3"></TD></TR>
+  <TR>
+    <TD height="1" colspan="3">网站导航:
+      <DIV id="blogsite"><A title="程序员的网上家园" 
+      href="http://www.cnblogs.com/">博客园</A>&nbsp;&nbsp;			<A href="http://news.cnblogs.com/">IT新闻</A>&nbsp;&nbsp;
+      			<A href="http://kb.cnblogs.com/">知识库</A>&nbsp;&nbsp;			<A href="http://www.cppblog.com/">C++博客</A>&nbsp;&nbsp;
+      			<A href="http://job.cnblogs.com/">程序员招聘</A>&nbsp;&nbsp;			<A href="http://www.blogjava.net/rosen/archive/2011/08/16/9956.html?opt=admin">管理</A>
+      			 </DIV></TD></TR>
+  <TR>
+    <TD height="5" colspan="3">
+      <DIV id="divRelativePosts">相关文章:				 
+      <UL style="padding-left: 0px; margin-top: 0px;">
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl01_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2010/06/22/324173.html">使用SoftReference软引用</A>
+        			 </LI>
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl02_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2010/06/13/323522.html">使用Memory 
+        Analyzer tool(MAT)分析内存泄漏（二）</A>			 </LI>
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl03_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2010/05/21/321575.html">使用Memory 
+        Analyzer tool(MAT)分析内存泄漏（一）</A>			 </LI>
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl04_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2007/10/26/156286.html">VSS 
+        Plugin配置FAQ（翻译）</A>			 </LI>
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl05_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2005/10/25/16729.html">Jakarta-ORO 
+        分解 IP 地址</A>			 </LI>
+        <LI style="list-style: none; display: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl06_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2005/08/12/9956.html">Java 
+        短路运算符和非短路运算符</A>			 </LI>
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl07_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2005/08/12/9955.html">Java 
+        中的位运算</A>			 </LI>
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl08_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2005/08/12/9954.html">Java 
+        工具，你用了吗？（翻译）</A>			 </LI>
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl09_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2005/08/12/9951.html">循证克隆</A>
+        			 </LI>
+        <LI style="list-style: none;"><A id="AjaxHolder_PostComment_ctl07_RelativePostsList_ctl10_Hyperlink1" 
+        href="http://www.blogjava.net/rosen/archive/2005/08/12/9945.html">在 
+        Eclipse 中使用 JUnit（翻译）</A>			 </LI></UL></DIV></TD></TR>
+  <TR>
+    <TD colspan="3">&nbsp;</TD></TR>
+  <TR>
+    <TD height="5" colspan="3"></TD></TR>
+  <TR>
+    <TD colspan="3"></TD></TR></TBODY></TABLE></DIV>
+<DIV id="AjaxHolder_PostComment_ValidationSummary1" style="color: red; display: none;"></DIV></DIV></DIV>
+<P id="footer">	Powered by: 	 <BR><A name="Hyperlink1" id="Footer1_Hyperlink3" 
+style="font-family: Verdana; font-size: 12px;" 
+href="http://www.blogjava.net/">BlogJava</A>	 <BR>	Copyright © Rosen </P>
+<SCRIPT type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("AjaxHolder_PostComment_ValidationSummary1"));
+var Page_Validators =  new Array(document.getElementById("AjaxHolder_PostComment_RequiredFieldValidator1"), document.getElementById("AjaxHolder_PostComment_RequiredFieldValidator2"), document.getElementById("AjaxHolder_PostComment_Requiredfieldvalidator4"), document.getElementById("AjaxHolder_PostComment_RequiredFieldValidator3"));
+//]]>
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+//<![CDATA[
+var AjaxHolder_PostComment_RequiredFieldValidator1 = document.all ? document.all["AjaxHolder_PostComment_RequiredFieldValidator1"] : document.getElementById("AjaxHolder_PostComment_RequiredFieldValidator1");
+AjaxHolder_PostComment_RequiredFieldValidator1.controltovalidate = "AjaxHolder_PostComment_tbTitle";
+AjaxHolder_PostComment_RequiredFieldValidator1.errormessage = "请输入标题";
+AjaxHolder_PostComment_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+AjaxHolder_PostComment_RequiredFieldValidator1.initialvalue = "";
+var AjaxHolder_PostComment_RequiredFieldValidator2 = document.all ? document.all["AjaxHolder_PostComment_RequiredFieldValidator2"] : document.getElementById("AjaxHolder_PostComment_RequiredFieldValidator2");
+AjaxHolder_PostComment_RequiredFieldValidator2.controltovalidate = "AjaxHolder_PostComment_tbName";
+AjaxHolder_PostComment_RequiredFieldValidator2.errormessage = "请输入你的姓名";
+AjaxHolder_PostComment_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+AjaxHolder_PostComment_RequiredFieldValidator2.initialvalue = "";
+var AjaxHolder_PostComment_Requiredfieldvalidator4 = document.all ? document.all["AjaxHolder_PostComment_Requiredfieldvalidator4"] : document.getElementById("AjaxHolder_PostComment_Requiredfieldvalidator4");
+AjaxHolder_PostComment_Requiredfieldvalidator4.controltovalidate = "AjaxHolder_PostComment_CodeNumberTextBox";
+AjaxHolder_PostComment_Requiredfieldvalidator4.errormessage = "请输入验证码";
+AjaxHolder_PostComment_Requiredfieldvalidator4.display = "Dynamic";
+AjaxHolder_PostComment_Requiredfieldvalidator4.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+AjaxHolder_PostComment_Requiredfieldvalidator4.initialvalue = "";
+var AjaxHolder_PostComment_RequiredFieldValidator3 = document.all ? document.all["AjaxHolder_PostComment_RequiredFieldValidator3"] : document.getElementById("AjaxHolder_PostComment_RequiredFieldValidator3");
+AjaxHolder_PostComment_RequiredFieldValidator3.controltovalidate = "AjaxHolder_PostComment_tbComment";
+AjaxHolder_PostComment_RequiredFieldValidator3.errormessage = "请输入评论内容";
+AjaxHolder_PostComment_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+AjaxHolder_PostComment_RequiredFieldValidator3.initialvalue = "";
+var AjaxHolder_PostComment_ValidationSummary1 = document.all ? document.all["AjaxHolder_PostComment_ValidationSummary1"] : document.getElementById("AjaxHolder_PostComment_ValidationSummary1");
+AjaxHolder_PostComment_ValidationSummary1.showmessagebox = "True";
+AjaxHolder_PostComment_ValidationSummary1.showsummary = "False";
+//]]>
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('AjaxHolder_PostComment_ValidationSummary1').dispose = function() {
+    Array.remove(Page_ValidationSummaries, document.getElementById('AjaxHolder_PostComment_ValidationSummary1'));
+}
+Sys.Application.initialize();
+
+document.getElementById('AjaxHolder_PostComment_RequiredFieldValidator1').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('AjaxHolder_PostComment_RequiredFieldValidator1'));
+}
+
+document.getElementById('AjaxHolder_PostComment_RequiredFieldValidator2').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('AjaxHolder_PostComment_RequiredFieldValidator2'));
+}
+
+document.getElementById('AjaxHolder_PostComment_Requiredfieldvalidator4').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('AjaxHolder_PostComment_Requiredfieldvalidator4'));
+}
+
+document.getElementById('AjaxHolder_PostComment_RequiredFieldValidator3').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('AjaxHolder_PostComment_RequiredFieldValidator3'));
+}
+//]]>
+</SCRIPT>
+ </FORM>
+<SCRIPT src="Java短路运算符和非短路运算符-Java教程_files/ShowHidden.js" type="text/javascript"></SCRIPT>
+	 
+<SCRIPT type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-476124-3']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</SCRIPT>
+ </BODY></HTML>

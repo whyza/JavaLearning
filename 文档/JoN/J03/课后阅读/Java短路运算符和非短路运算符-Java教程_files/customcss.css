@@ -1,0 +1,18 @@
+div.News {
+	padding: 5px 5px 5px 10px; left: 0px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 10pt;
+}
+#main {
+	padding: 10px; margin-left: 190px; border-bottom-color: black; border-left-color: rgb(85, 85, 85); border-bottom-width: 4px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid; background-color: white;
+}
+h1 {
+	margin: 10px 0px 5px; line-height: 100%; font-size: 24px;
+}
+#tagline {
+	margin: 0px; color: white; font-size: 1.1em;
+}
+.BlogStatsBar {
+	text-align: right; color: silver; font-size: 7pt; font-weight: normal; border-collapse: collapse;
+}
+#leftmenu {
+	left: 0px; width: 180px; height: auto; padding-top: 5px; position: absolute; background-color: whitesmoke;
+}

@@ -1,0 +1,17 @@
+ 使用Math.floor和Math.random取随机整数
+
+Math.random():获取0~1随机数
+
+Math.floor() method rounds a number DOWNWARDS to the nearest integer, and returns the result. (小于等于 x，且与 x 最接近的整数。)
+其实返回值就是该数的整数位：
+Math.floor(0.666)   -->  0
+Math.floor(39.2783)   -->  39
+
+所以我们可以使用Math.floor(Math.random())去获取你想要的一个范围内的整数。
+如：现在要从1~52内取一个随机数：
+首先Math.random()*52  //这样我们就能得到一个 >=0 且 <52的数
+然后加1：Math.random()*52 + 1    //现在这个数就 >=1 且 <53
+再使用Math.floor取整
+
+最终: Math.floor(Math.random()*52 + 1)
+这就能得到一个取值范围为1~52的随机整数了.

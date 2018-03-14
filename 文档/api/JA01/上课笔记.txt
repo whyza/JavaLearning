@@ -1,0 +1,47 @@
+API：某种语言提供内置功能。
+(Application Programing Interface)。
+
+-------------------------
+1-学习什么包？
+2-学习包里面的某个类
+3-学习该类里面的方法。
+-------------------------
+java.lang.*;lang包是java基础包，默认导入
+
+
+1-八种基本数据类型
+int-double-char-boolean-long-short-float-byte
+
+2-八种包装数据类型
+Integer-Double-Character-Boolean—Long——Short——Float——Byte
+
+1-字符串转基本  XXXX.parseXXXX("")
+2-包装转字符串  对象.toString();
+3-基本转包装   XXXX a=new XXX(num);
+4-包装转基本   对象.xxxxValue();
+
+JDK1.4以后，系统支持装箱和拆箱的操作。
+
+
+
+---------------------
+java		C#	.NET
+JDK		.NET FW	
+JDK 1.1		1.0
+JDK 1.2		1.1
+JDK 1.3		2.0
+JDK 1.4		3.0
+JDK 1.5		3.5
+JDK 6.0		4.0
+JDK 7.0		4.5
+JDK 8.0		
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+JDK1.8    64位	
+
+http://download.oracle.com/otn-pub/java/jdk/8u102-b14/jdk-8u102-windows-x64.exe
+
+
+JDK1.8    32位	
+
+http://download.oracle.com/otn-pub/java/jdk/8u102-b14/jdk-8u102-windows-i586.exe
+
+直接使用迅雷复制下载链接

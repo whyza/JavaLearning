@@ -1,0 +1,1367 @@
+.enc-tip {
+	RIGHT: 82px; POSITION: absolute; Z-INDEX: 210; TOP: 32px; VISIBILITY: hidden; WIDTH: 240px
+}
+.enc-tip .close {
+	OVERFLOW: hidden; HEIGHT: 13px; BACKGROUND: url(http://img.baidu.com/img/baike/encourage/encourage.png) no-repeat 0px -20px; RIGHT: 10px; POSITION: absolute; TOP: 10px; WIDTH: 13px; TEXT-INDENT: 3000px
+}
+.enc-wrap {
+	BORDER-TOP: #d1b27b 1px solid; BORDER-RIGHT: #d1b27b 1px; BORDER-BOTTOM: #d1b27b 1px solid; BORDER-LEFT: #d1b27b 1px; WIDTH: 100%; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px
+}
+.enc-wrap .enc-content {
+	BORDER-RIGHT: #d1b27b 1px solid; BACKGROUND: #ffffdb; POSITION: relative; PADDING-BOTTOM: 12px; PADDING-TOP: 15px; PADDING-LEFT: 0px; MARGIN: 0px -1px; MIN-HEIGHT: 60px; BORDER-LEFT: #d1b27b 1px solid; PADDING-RIGHT: 10px; border-radius: 2px; _height: 60px
+}
+.enc-wrap .enc-content A {
+	COLOR: #00c; TEXT-DECORATION: none
+}
+.enc-content .fl {
+	FLOAT: left
+}
+.enc-content .fr {
+	FLOAT: right; WIDTH: 204px
+}
+.enc-content .fl A {
+	MARGIN: 0px 10px 15px 15px; DISPLAY: inline-block
+}
+.enc-content H3 {
+	FONT-SIZE: 12px; HEIGHT: 20px; WHITE-SPACE: nowrap; FONT-WEIGHT: bold; COLOR: #000; MARGIN: 0px; LINE-HEIGHT: 20px
+}
+.enc-wrap .enc-content H3 A {
+	FONT-SIZE: 13px
+}
+.enc-content .enc-txt {
+	WORD-WRAP: break-word; FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+.enc-tip .ctr {
+	HEIGHT: 16px; POSITION: absolute; TOP: 0px; WIDTH: 16px
+}
+.enc-tip .tri {
+	OVERFLOW: hidden; FONT-SIZE: 0px; BORDER-TOP: transparent 8px dashed; HEIGHT: 0px; BORDER-RIGHT: transparent 8px dashed; BORDER-BOTTOM: #d1b27b 8px solid; POSITION: absolute; BORDER-LEFT: transparent 8px dashed; WIDTH: 0px
+}
+.enc-tip .ctr .out {
+	BORDER-TOP-COLOR: transparent; BORDER-BOTTOM-COLOR: #d1b27b; BORDER-RIGHT-COLOR: transparent; TOP: -15px; BORDER-LEFT-COLOR: transparent
+}
+.enc-tip .ctr .in {
+	BORDER-TOP-COLOR: transparent; BORDER-BOTTOM-COLOR: #ffffdb; BORDER-RIGHT-COLOR: transparent; TOP: -14px; BORDER-LEFT-COLOR: transparent
+}
+.enc-content .xiaohui {
+	HEIGHT: 70px; BACKGROUND: url(http://img.baidu.com/img/baike/encourage/encourage.png) no-repeat -18px 0px; POSITION: relative; FLOAT: right; MARGIN: 0px -26px 0px 0px; WIDTH: 62px
+}
+.enc-ver-tip {
+	WIDTH: 180px
+}
+.enc-ver-content {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.enc-content .ver_con {
+	LIST-STYLE-TYPE: none; BORDER-BOTTOM: #f6f0cd 1px dashed; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px 0px 10px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px
+}
+.enc-content .ver_con LI {
+	MARGIN: 0px; DISPLAY: inline-block
+}
+.enc-ver-content A {
+	MARGIN-LEFT: 10px
+}
+.edit-success IMG {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+.dialog-content-inner-wrap {
+	CURSOR: default; VERTICAL-ALIGN: top; MIN-WIDTH: 150px; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 42px; MARGIN: 0px; MIN-HEIGHT: 40px; DISPLAY: block; LINE-HEIGHT: 32px; PADDING-RIGHT: 0px
+}
+.dialog-confirm {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/confirm.png) no-repeat left center
+}
+.dialog-alert {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/alert.png) no-repeat left center
+}
+.bk-dialog-main {
+	BORDER-TOP: #104a88 1px solid; BORDER-RIGHT: #104a88 1px solid; BORDER-BOTTOM: #104a88 1px solid; BORDER-LEFT: #104a88 1px solid
+}
+.bk-dialog {
+	OVERFLOW: hidden; FONT-SIZE: 13px; BORDER-TOP: #3874ac 1px solid; BORDER-RIGHT: #1169b1 2px solid; BORDER-BOTTOM: #1169b1 2px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #1169b1 2px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-image: none
+}
+.bk-dialog-title {
+	CURSOR: default; FONT-SIZE: 14px; VERTICAL-ALIGN: top; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-title-bg.png) no-repeat right top; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 8px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px
+}
+.bk-dialog-title-inner {
+	OVERFLOW: hidden; CURSOR: default; FONT-SIZE: 14px; HEIGHT: 17px; FONT-WEIGHT: bold; COLOR: white
+}
+.bk-dialog-content-shade {
+	OVERFLOW: hidden; BORDER-TOP: 0px; HEIGHT: 11px; BORDER-RIGHT: white 1px solid; BACKGROUND: url(http://img.baidu.com/img/baike/editor/bgs.gif) white repeat-x 0px 0px; BORDER-BOTTOM: 1px solid; MARGIN: 0px; BORDER-LEFT: 1px solid; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-image: none
+}
+.bk-dialog-close {
+	CURSOR: pointer; BORDER-TOP: white 8px solid; HEIGHT: 0px; BORDER-RIGHT: white 8px solid; BACKGROUND-IMAGE: none; RIGHT: 10px; BORDER-BOTTOM: white 8px solid; POSITION: absolute; BORDER-LEFT: white 8px solid; TOP: 6px; WIDTH: 0px; opacity: 0
+}
+.bk-dialog-content {
+	OVERFLOW: hidden; WIDTH: 100%
+}
+.bk-dialog-content .dialog-content-inner {
+	HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 15px; DISPLAY: block; PADDING-RIGHT: 15px
+}
+.bk-dialog-content-scroll {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.bk-dialog-footer {
+	HEIGHT: 38px; FONT-FAMILY: arial,宋体,sans-serif; PADDING-BOTTOM: 4px; TEXT-ALIGN: center; PADDING-TOP: 4px; PADDING-LEFT: 12px; MARGIN: 0px 1px 1px; PADDING-RIGHT: 12px; BACKGROUND-COLOR: white
+}
+.bk-dialog-button {
+	CURSOR: pointer; FONT-SIZE: 14px; FONT-FAMILY: arial,宋体,sans-serif; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-btn-bg.gif) no-repeat left bottom; POSITION: relative; PADDING-BOTTOM: 6px; PADDING-TOP: 8px; PADDING-LEFT: 12px; DISPLAY: inline; TOP: 9px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 10px
+}
+.bk-dialog-accept {
+	CURSOR: pointer; FONT-SIZE: 14px; FONT-FAMILY: arial,宋体,sans-serif; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-btn-bg.gif) no-repeat left bottom; POSITION: relative; PADDING-BOTTOM: 6px; PADDING-TOP: 8px; PADDING-LEFT: 12px; DISPLAY: inline; TOP: 9px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 10px
+}
+.bk-dialog-cancel {
+	CURSOR: pointer; FONT-SIZE: 14px; FONT-FAMILY: arial,宋体,sans-serif; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-btn-bg.gif) no-repeat left bottom; POSITION: relative; PADDING-BOTTOM: 6px; PADDING-TOP: 8px; PADDING-LEFT: 12px; DISPLAY: inline; TOP: 9px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 10px
+}
+.bk-dialog-accept-hover {
+	BACKGROUND-POSITION: left bottom
+}
+.bk-dialog-cancel-hover {
+	BACKGROUND-POSITION: left bottom
+}
+.bk-dialog-cancel-hover .bk-dialog-button-label {
+	BACKGROUND-POSITION: right bottom
+}
+.bk-dialog-accept-hover .bk-dialog-button-label {
+	BACKGROUND-POSITION: right bottom
+}
+.bk-dialog-button {
+	FLOAT: none
+}
+.bk-dialog-accept {
+	FLOAT: none
+}
+.bk-dialog-cancel {
+	FLOAT: none
+}
+.bk-dialog-button-label {
+	FLOAT: none
+}
+.bk-dialog-button-label {
+	CURSOR: pointer; FONT-SIZE: 14px; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-btn-bg.gif) no-repeat right bottom; FONT-WEIGHT: bold; COLOR: #0163af; PADDING-BOTTOM: 6px; PADDING-TOP: 8px; PADDING-LEFT: 12px; TEXT-DECORATION: none; DISPLAY: inline; PADDING-RIGHT: 20px; VISIBILITY: visible
+}
+.login-dialog-content-scroll {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.bkdialog-main {
+	BORDER-TOP: #3370af 5px solid
+}
+.bkdialog {
+	OVERFLOW: hidden; FONT-SIZE: 13px; BORDER-TOP: 0px; BORDER-RIGHT: #ecebeb 1px solid; BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; BORDER-LEFT: 1px solid; PADDING-RIGHT: 20px; BACKGROUND-COLOR: white; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-image: none
+}
+.bkdialog-title {
+	CURSOR: default; FONT-SIZE: 14px; VERTICAL-ALIGN: top; BORDER-BOTTOM: #e5e5e5 1px solid; POSITION: relative; FONT-WEIGHT: bold; PADDING-BOTTOM: 7px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 0px; MARGIN: 13px 0px 10px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px
+}
+.bkdialog-title-inner {
+	OVERFLOW: hidden; CURSOR: default; FONT-SIZE: 14px; HEIGHT: 17px; FONT-WEIGHT: bold; COLOR: black
+}
+.bkdialog-content-shade {
+	DISPLAY: none
+}
+.dialog-content-inner-wrap {
+	CURSOR: default; VERTICAL-ALIGN: top; MIN-WIDTH: 150px; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 42px; MARGIN: 0px; MIN-HEIGHT: 40px; DISPLAY: block; LINE-HEIGHT: 32px; PADDING-RIGHT: 0px
+}
+.dialog-confirm {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/confirm.png) no-repeat left center
+}
+.dialog-alert {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/alert.png) no-repeat left center
+}
+.bkdialog-close {
+	CURSOR: pointer; HEIGHT: 19px; BACKGROUND: url(http://img.baidu.com/img/baike/reg/reg.png) no-repeat -299px 0px; RIGHT: -8px; POSITION: absolute; DISPLAY: inline-block; TOP: -5px; WIDTH: 19px
+}
+.bkdialog-close-hover {
+	CURSOR: pointer; BACKGROUND-POSITION: -325px 0px
+}
+.bkdialog-content {
+	OVERFLOW: hidden; WIDTH: 100%
+}
+.bkdialog-content .dialog-content-inner {
+	HEIGHT: 100%; PADDING-BOTTOM: 10px; DISPLAY: block
+}
+.bkdialog-content-scroll {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.bkdialog-footer {
+	HEIGHT: 38px; FONT-FAMILY: arial,宋体,sans-serif; PADDING-BOTTOM: 4px; TEXT-ALIGN: center; PADDING-TOP: 4px; PADDING-LEFT: 12px; MARGIN: 0px 1px 1px; PADDING-RIGHT: 12px; BACKGROUND-COLOR: white
+}
+.bkdialog-button {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/dialog-newui.gif) no-repeat 0px 0px; FONT: 14px Arial
+}
+.bkdialog-button-label {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/dialog-newui.gif) no-repeat 0px 0px; FONT: 14px Arial
+}
+.bkdialog-button {
+	CURSOR: pointer; BACKGROUND-POSITION: left top; DISPLAY: inline-block; MARGIN-RIGHT: 10px
+}
+.bkdialog-button-label {
+	HEIGHT: 30px; BACKGROUND-POSITION: right top; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 14px; MARGIN-LEFT: 10px; LINE-HEIGHT: 30px; PADDING-RIGHT: 24px
+}
+.bkdialog-accept {
+	COLOR: #fff
+}
+.bkdialog-accept-hover {
+	BACKGROUND-POSITION: left -40px
+}
+.bkdialog-accept-hover .bkdialog-button-label {
+	BACKGROUND-POSITION: right -40px
+}
+.bkdialog-accept-press {
+	BACKGROUND-POSITION: left -80px
+}
+.bkdialog-accept-press .bkdialog-button-label {
+	BACKGROUND-POSITION: right -80px
+}
+.bkdialog-cancel {
+	BACKGROUND-POSITION: left -120px; COLOR: #0163af
+}
+.bkdialog-cancel .bkdialog-button-label {
+	BACKGROUND-POSITION: right -120px
+}
+.bkdialog-cancel-hover {
+	BACKGROUND-POSITION: left -160px
+}
+.bkdialog-cancel-hover .bkdialog-button-label {
+	BACKGROUND-POSITION: right -160px
+}
+.bkdialog-cancel-press {
+	BACKGROUND-POSITION: left -200px
+}
+.bkdialog-cancel-press .bkdialog-button-label {
+	BACKGROUND-POSITION: right -200px
+}
+.login-dialog-content-scroll {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.dialog-content-inner-wrap {
+	CURSOR: default; VERTICAL-ALIGN: top; MIN-WIDTH: 150px; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 42px; MARGIN: 0px; MIN-HEIGHT: 40px; DISPLAY: block; LINE-HEIGHT: 32px; PADDING-RIGHT: 0px; _padding: 16px 0 10px 42px
+}
+.dialog-confirm {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/confirm.png) no-repeat left center
+}
+.dialog-alert {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/alert.png) no-repeat left center
+}
+.bk-dialog-main {
+	BORDER-TOP: #104a88 1px solid; BORDER-RIGHT: #104a88 1px solid; BORDER-BOTTOM: #104a88 1px solid; BORDER-LEFT: #104a88 1px solid
+}
+.bk-dialog {
+	OVERFLOW: hidden; FONT-SIZE: 13px; BORDER-TOP: #3874ac 1px solid; BORDER-RIGHT: #1169b1 2px solid; BORDER-BOTTOM: #1169b1 2px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #1169b1 2px solid; PADDING-RIGHT: 0px; BACKGROUND-COLOR: white
+}
+.bk-dialog-title {
+	CURSOR: default; FONT-SIZE: 14px; VERTICAL-ALIGN: top; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-title-bg.png) no-repeat right top; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 8px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px
+}
+.bk-dialog-title-inner {
+	OVERFLOW: hidden; CURSOR: default; FONT-SIZE: 14px; HEIGHT: 17px; FONT-WEIGHT: bold; COLOR: white
+}
+.bk-dialog-content-shade {
+	OVERFLOW: hidden; BORDER-TOP: white 0px solid; HEIGHT: 11px; BORDER-RIGHT: white 1px solid; BACKGROUND: url(http://img.baidu.com/img/baike/editor/bgs.gif) white repeat-x 0px 0px; BORDER-BOTTOM: white 1px solid; MARGIN: 0px; BORDER-LEFT: white 1px solid
+}
+.bk-dialog-close {
+	CURSOR: pointer; BORDER-TOP: white 8px solid; HEIGHT: 0px; BORDER-RIGHT: white 8px solid; BACKGROUND-IMAGE: none; RIGHT: 10px; BORDER-BOTTOM: white 8px solid; POSITION: absolute; FILTER: alpha(opacity=0); BORDER-LEFT: white 8px solid; TOP: 6px; WIDTH: 0px; opacity: 0
+}
+.bk-dialog-content {
+	OVERFLOW: hidden; WIDTH: 100%
+}
+.bk-dialog-content .dialog-content-inner {
+	HEIGHT: 100%; PADDING-BOTTOM: 10px; PADDING-TOP: 0px; PADDING-LEFT: 15px; DISPLAY: block; PADDING-RIGHT: 15px
+}
+.bk-dialog-content-scroll {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.bk-dialog-footer {
+	HEIGHT: 38px; FONT-FAMILY: arial,宋体,sans-serif; ZOOM: 1; PADDING-BOTTOM: 4px; TEXT-ALIGN: center; PADDING-TOP: 4px; PADDING-LEFT: 12px; MARGIN: 0px 1px 1px; PADDING-RIGHT: 12px; BACKGROUND-COLOR: white
+}
+.bk-dialog-button {
+	CURSOR: pointer; FONT-SIZE: 14px; FONT-FAMILY: arial,宋体,sans-serif; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-btn-bg.gif) no-repeat left bottom; POSITION: relative; ZOOM: 1; PADDING-BOTTOM: 0px; PADDING-TOP: 8px; PADDING-LEFT: 12px; DISPLAY: inline; TOP: -5px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 10px; _padding: 8px 0 0 12px
+}
+.bk-dialog-accept {
+	CURSOR: pointer; FONT-SIZE: 14px; FONT-FAMILY: arial,宋体,sans-serif; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-btn-bg.gif) no-repeat left bottom; POSITION: relative; ZOOM: 1; PADDING-BOTTOM: 0px; PADDING-TOP: 8px; PADDING-LEFT: 12px; DISPLAY: inline; TOP: -5px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 10px; _padding: 8px 0 0 12px
+}
+.bk-dialog-cancel {
+	CURSOR: pointer; FONT-SIZE: 14px; FONT-FAMILY: arial,宋体,sans-serif; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-btn-bg.gif) no-repeat left bottom; POSITION: relative; ZOOM: 1; PADDING-BOTTOM: 0px; PADDING-TOP: 8px; PADDING-LEFT: 12px; DISPLAY: inline; TOP: -5px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 10px; _padding: 8px 0 0 12px
+}
+.bk-dialog-accept-hover {
+	BACKGROUND-POSITION: left bottom
+}
+.bk-dialog-cancel-hover {
+	BACKGROUND-POSITION: left bottom
+}
+.bk-dialog-cancel-hover .bk-dialog-button-label {
+	BACKGROUND-POSITION: right bottom
+}
+.bk-dialog-accept-hover .bk-dialog-button-label {
+	BACKGROUND-POSITION: right bottom
+}
+.bk-dialog-button {
+	FLOAT: none
+}
+.bk-dialog-accept {
+	FLOAT: none
+}
+.bk-dialog-cancel {
+	FLOAT: none
+}
+.bk-dialog-button-label {
+	FLOAT: none
+}
+.bk-dialog-button-label {
+	CURSOR: pointer; FONT-SIZE: 14px; BACKGROUND: url(http://img.baidu.com/img/baike/dialog/nfedialog-btn-bg.gif) no-repeat right bottom; ZOOM: 1; FONT-WEIGHT: bold; COLOR: #0163af; PADDING-BOTTOM: 6px; PADDING-TOP: 8px; PADDING-LEFT: 12px; TEXT-DECORATION: none; DISPLAY: inline; PADDING-RIGHT: 20px; VISIBILITY: visible; _padding-bottom: 5px; _line-height: 17px
+}
+.login-dialog-content-scroll {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.bkdialog-main {
+	BORDER-TOP: #3370af 5px solid
+}
+.bkdialog {
+	OVERFLOW: hidden; FONT-SIZE: 13px; BORDER-TOP: #ecebeb 0px solid; BORDER-RIGHT: #ecebeb 1px solid; BORDER-BOTTOM: #ecebeb 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; BORDER-LEFT: #ecebeb 1px solid; PADDING-RIGHT: 20px; BACKGROUND-COLOR: white
+}
+.bkdialog-title {
+	CURSOR: default; FONT-SIZE: 14px; VERTICAL-ALIGN: top; BORDER-BOTTOM: #e5e5e5 1px solid; POSITION: relative; FONT-WEIGHT: bold; PADDING-BOTTOM: 7px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 0px; MARGIN: 13px 0px 10px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px
+}
+.bkdialog-title-inner {
+	OVERFLOW: hidden; CURSOR: default; FONT-SIZE: 14px; HEIGHT: 17px; FONT-WEIGHT: bold; COLOR: black
+}
+.bkdialog-content-shade {
+	DISPLAY: none
+}
+.dialog-content-inner-wrap {
+	CURSOR: default; VERTICAL-ALIGN: top; MIN-WIDTH: 150px; PADDING-BOTTOM: 10px; TEXT-ALIGN: left; PADDING-TOP: 20px; PADDING-LEFT: 42px; MARGIN: 0px; MIN-HEIGHT: 40px; DISPLAY: block; LINE-HEIGHT: 32px; PADDING-RIGHT: 0px; _padding: 16px 0 10px 42px
+}
+.dialog-confirm {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/confirm.png) no-repeat left center
+}
+.dialog-alert {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/alert.png) no-repeat left center
+}
+.bkdialog-close {
+	CURSOR: pointer; HEIGHT: 19px; BACKGROUND: url(http://img.baidu.com/img/baike/reg/reg.png) no-repeat -299px 0px; RIGHT: -8px; POSITION: absolute; DISPLAY: inline-block; TOP: -5px; WIDTH: 19px; _right: 14px
+}
+.bkdialog-close-hover {
+	CURSOR: pointer; BACKGROUND-POSITION: -325px 0px
+}
+.bkdialog-content {
+	OVERFLOW: hidden; WIDTH: 100%
+}
+.bkdialog-content .dialog-content-inner {
+	HEIGHT: 100%; PADDING-BOTTOM: 10px; DISPLAY: block
+}
+.bkdialog-content-scroll {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.bkdialog-footer {
+	HEIGHT: 38px; FONT-FAMILY: arial,宋体,sans-serif; ZOOM: 1; PADDING-BOTTOM: 4px; TEXT-ALIGN: center; PADDING-TOP: 4px; PADDING-LEFT: 12px; MARGIN: 0px 1px 1px; PADDING-RIGHT: 12px; BACKGROUND-COLOR: white
+}
+.bkdialog-button {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/dialog-newui.gif) no-repeat; FONT: 14px Arial
+}
+.bkdialog-button-label {
+	BACKGROUND: url(http://img.baidu.com/img/baike/editor/dialog-newui.gif) no-repeat; FONT: 14px Arial
+}
+.bkdialog-button {
+	CURSOR: pointer; BACKGROUND-POSITION: left top; DISPLAY: inline-block; MARGIN-RIGHT: 10px
+}
+.bkdialog-button-label {
+	HEIGHT: 30px; BACKGROUND-POSITION: right top; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 14px; MARGIN-LEFT: 10px; LINE-HEIGHT: 30px; PADDING-RIGHT: 24px
+}
+.bkdialog-button {
+	ZOOM: 1; DISPLAY: inline
+}
+.bkdialog-button-label {
+	ZOOM: 1; DISPLAY: inline
+}
+.bkdialog-accept {
+	COLOR: #fff
+}
+.bkdialog-accept-hover {
+	BACKGROUND-POSITION: left -40px
+}
+.bkdialog-accept-hover .bkdialog-button-label {
+	BACKGROUND-POSITION: right -40px
+}
+.bkdialog-accept-press {
+	BACKGROUND-POSITION: left -80px
+}
+.bkdialog-accept-press .bkdialog-button-label {
+	BACKGROUND-POSITION: right -80px
+}
+.bkdialog-cancel {
+	BACKGROUND-POSITION: left -120px; COLOR: #0163af
+}
+.bkdialog-cancel .bkdialog-button-label {
+	BACKGROUND-POSITION: right -120px
+}
+.bkdialog-cancel-hover {
+	BACKGROUND-POSITION: left -160px
+}
+.bkdialog-cancel-hover .bkdialog-button-label {
+	BACKGROUND-POSITION: right -160px
+}
+.bkdialog-cancel-press {
+	BACKGROUND-POSITION: left -200px
+}
+.bkdialog-cancel-press .bkdialog-button-label {
+	BACKGROUND-POSITION: right -200px
+}
+.login-dialog-content-scroll {
+	OVERFLOW: auto; HEIGHT: 100%
+}
+.academic-council {
+	FONT-SIZE: 12px; BORDER-TOP: #ededed 1px solid; HEIGHT: 194px; BORDER-RIGHT: #e6e6e6 1px solid; BACKGROUND: url(/static/widget/common/academic/img/bg_xushu_09d0cdf8.png) #fcfcfc no-repeat 170px 50px; BORDER-BOTTOM: #e6e6e6 0px solid; POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 19px; MARGIN: 0px; BORDER-LEFT: #e6e6e6 1px solid; PADDING-RIGHT: 19px
+}
+.academic-council .title {
+	MARGIN: 17px 0px 6px
+}
+.academic-council .title H3 {
+	FONT-SIZE: 14px; FONT-FAMILY: "宋体"; FLOAT: left; FONT-WEIGHT: bold; COLOR: #333; MARGIN: 0px; LINE-HEIGHT: 30px
+}
+.academic-council .title .more {
+	FLOAT: right; FONT-WEIGHT: normal; COLOR: #888; MARGIN: 7px 0px 0px
+}
+.academic-council .member .pic {
+	FLOAT: left; LINE-HEIGHT: 0
+}
+.academic-council .member .pic .img-border {
+	HEIGHT: 53px; MARGIN-TOP: -55px; WIDTH: 53px
+}
+.academic-council .member .content {
+	FLOAT: left; WIDTH: 144px
+}
+.academic-council .member .content H4 {
+	FONT-SIZE: 12px; FONT-WEIGHT: bold; COLOR: #2d64b3; MARGIN: 0px; LINE-HEIGHT: 20px
+}
+.academic-council .member .content H4 A {
+	COLOR: #2d64b3
+}
+.academic-council .member .content P {
+	COLOR: #666; LINE-HEIGHT: 22px
+}
+.academic-council UL {
+	MARGIN: 9px 0px 0px
+}
+.academic-council UL LI {
+	BACKGROUND: url(/static/common/img/dot_c6a4acd9.png) no-repeat 0px 8px; COLOR: #666; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 9px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px
+}
+.academic-council UL LI .num {
+	FONT-WEIGHT: bold; COLOR: #56a741
+}
+.academic-council .apply {
+	OVERFLOW: hidden; HEIGHT: 25px; BACKGROUND: url(/static/common/img/btn_apply_ce68b8a1.png) no-repeat 0px 0px; POSITION: absolute; COLOR: #808080; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LEFT: 158px; DISPLAY: block; LINE-HEIGHT: 26px; TOP: 126px; PADDING-RIGHT: 0px; WIDTH: 73px
+}
+.academic-council A.apply:hover {
+	BACKGROUND-POSITION: 0px -25px; COLOR: #666; TEXT-DECORATION: none
+}
+.academic-council .statistics {
+	HEIGHT: 29px; BACKGROUND: #f6f6f6; POSITION: absolute; COLOR: #666; TEXT-ALIGN: center; LEFT: 0px; LINE-HEIGHT: 29px; WIDTH: 248px; BOTTOM: 0px
+}
+.academic-council .statistics .num {
+	FONT-WEIGHT: bold; COLOR: #56a741
+}
+.foot {
+	MARGIN: 30px 0px 35px
+}
+.foot .bd {
+	FONT-SIZE: 12px; COLOR: #666; TEXT-ALIGN: center
+}
+.foot .ft {
+	FONT-SIZE: 12px; WHITE-SPACE: nowrap; COLOR: #77c; TEXT-ALIGN: center; CLEAR: both; MARGIN: 5px 0px; LINE-HEIGHT: 20px
+}
+.footer_pad {
+	BACKGROUND: #f7f7f7; MARGIN-TOP: 40px
+}
+.footer_pad #ft {
+	FONT-SIZE: 14px; WHITE-SPACE: nowrap; COLOR: #133db6; TEXT-ALIGN: center; CLEAR: both; LINE-HEIGHT: 20px
+}
+.footer_pad #ft A {
+	FONT-SIZE: 14px; COLOR: #133db6; TEXT-DECORATION: none
+}
+.footer_pad .version {
+	FONT-SIZE: 14px; COLOR: #133db6; TEXT-ALIGN: center; MARGIN: 20px 0px; LINE-HEIGHT: 20px
+}
+.footer_pad .version A {
+	COLOR: #133db6; TEXT-DECORATION: none
+}
+.footer_pad .version A.link {
+	COLOR: #133db6
+}
+.footer_pad .version A.cur {
+	COLOR: #333 !important
+}
+.w-parent {
+	COLOR: red
+}
+.nav-container {
+	POSITION: relative; Z-INDEX: 1
+}
+.nav-container .nav1 {
+	HEIGHT: 41px; BACKGROUND: url(/static/widget/common/nav/img/nav_bg_68e4227a.png) repeat-x
+}
+.nav-container .nav1 LI {
+	HEIGHT: 41px; FLOAT: left; DISPLAY: inline; LINE-HEIGHT: 41px
+}
+.nav-container .nav1 LI .split-line {
+	BACKGROUND: url(/static/widget/common/nav/img/line_ffe41d56.png) no-repeat 106px 11px; DISPLAY: inline-block
+}
+.nav-container .nav1 LI A {
+	OVERFLOW: hidden; FONT-SIZE: 14px; HEIGHT: 41px; FONT-FAMILY: "宋体"; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 24px; TEXT-DECORATION: none; DISPLAY: inline-block; PADDING-RIGHT: 24px
+}
+.nav-container .nav1 LI A:hover {
+	BACKGROUND: #255c94; RIGHT: 2px; POSITION: relative; PADDING-LEFT: 26px; TEXT-DECORATION: none; MARGIN-RIGHT: -2px
+}
+.nav-container .nav1 LI .on {
+	BACKGROUND: #255c94; RIGHT: 2px; POSITION: relative; PADDING-LEFT: 26px; TEXT-DECORATION: none; MARGIN-RIGHT: -2px
+}
+.nav-container .nav1 LI A.cur {
+	HEIGHT: 41px; BACKGROUND: url(/static/widget/common/nav/img/nav_cur_3c657193.png) no-repeat; RIGHT: 2px; POSITION: relative; PADDING-LEFT: 26px; MARGIN-RIGHT: -2px
+}
+.nav-container .nav1 LI.category {
+	POSITION: relative
+}
+.nav-container .nav1 LI.special {
+	POSITION: relative
+}
+.nav-container .nav1 LI.play {
+	POSITION: relative
+}
+.nav-container .nav1 LI.usergroup {
+	POSITION: relative
+}
+.nav-container .nav1 LI.category .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 0px
+}
+.nav-container .nav1 LI.special .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 0px
+}
+.nav-container .nav1 LI.play .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 0px
+}
+.nav-container .nav1 LI.usergroup .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 0px
+}
+.nav-container .nav1 LI.category .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 1px
+}
+.nav-container .nav1 LI.special .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 1px
+}
+.nav-container .nav1 LI.play .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 1px
+}
+.nav-container .nav1 LI.usergroup .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 1px
+}
+.nav-container .nav1 LI.category SPAN {
+	BACKGROUND-POSITION: 112px 11px
+}
+.nav-container .nav1 LI.special SPAN {
+	BACKGROUND-POSITION: 112px 11px
+}
+.nav-container .nav1 LI.play SPAN {
+	BACKGROUND-POSITION: 112px 11px
+}
+.nav-container .nav1 LI.usergroup SPAN {
+	BACKGROUND-POSITION: 112px 11px
+}
+.nav-container .nav1 LI.category A {
+	WIDTH: 66px
+}
+.nav-container .nav1 LI.special A {
+	WIDTH: 66px
+}
+.nav-container .nav1 LI.play A {
+	WIDTH: 66px
+}
+.nav-container .nav1 LI.usergroup A {
+	WIDTH: 66px
+}
+.nav-container .nav1 LI.five .split-line {
+	BACKGROUND-POSITION: 121px 11px
+}
+.nav-container .nav {
+	HEIGHT: 34px; BACKGROUND: url(/static/widget/common/nav/img/nav_bg2_ea3e49e7.png) repeat-x
+}
+.nav-container .nav LI {
+	HEIGHT: 34px; FLOAT: left; DISPLAY: inline; LINE-HEIGHT: 34px
+}
+.nav-container .nav LI .split-line {
+	BACKGROUND: url(/static/widget/common/nav/img/line2_26f3e05f.png) no-repeat 98px 1px; DISPLAY: inline-block
+}
+.nav-container .nav LI A {
+	OVERFLOW: hidden; FONT-SIZE: 14px; FONT-FAMILY: "宋体"; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; TEXT-DECORATION: none; DISPLAY: inline-block; PADDING-RIGHT: 20px
+}
+.nav-container .nav LI A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -102px; TEXT-DECORATION: none
+}
+.nav-container .nav LI.first {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px 0px
+}
+.nav-container .nav LI.first A:hover {
+	BACKGROUND-POSITION: 0px -68px
+}
+.nav-container .nav LI.category {
+	POSITION: relative
+}
+.nav-container .nav LI.special {
+	POSITION: relative
+}
+.nav-container .nav LI.play {
+	POSITION: relative
+}
+.nav-container .nav LI.usergroup {
+	POSITION: relative
+}
+.nav-container .nav LI.category .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 0px
+}
+.nav-container .nav LI.special .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 0px
+}
+.nav-container .nav LI.play .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 0px
+}
+.nav-container .nav LI.usergroup .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 0px
+}
+.nav-container .nav LI.category .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 1px
+}
+.nav-container .nav LI.special .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 1px
+}
+.nav-container .nav LI.play .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 1px
+}
+.nav-container .nav LI.usergroup .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 89px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 18px; WIDTH: 1px
+}
+.nav-container .nav LI.category SPAN {
+	BACKGROUND-POSITION: 104px 1px
+}
+.nav-container .nav LI.special SPAN {
+	BACKGROUND-POSITION: 104px 1px
+}
+.nav-container .nav LI.play SPAN {
+	BACKGROUND-POSITION: 104px 1px
+}
+.nav-container .nav LI.usergroup SPAN {
+	BACKGROUND-POSITION: 104px 1px
+}
+.nav-container .nav LI.category A {
+	WIDTH: 66px
+}
+.nav-container .nav LI.special A {
+	WIDTH: 66px
+}
+.nav-container .nav LI.play A {
+	WIDTH: 66px
+}
+.nav-container .nav LI.usergroup A {
+	WIDTH: 66px
+}
+.nav-container .nav LI.category A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav LI.special A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav LI.play A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav LI.usergroup A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav LI.category A.on {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -170px
+}
+.nav-container .nav LI.special A.on {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -170px
+}
+.nav-container .nav LI.play A.on {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -170px
+}
+.nav-container .nav LI.usergroup A.on {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -170px
+}
+.nav-container .nav LI.five A:hover {
+	BACKGROUND-POSITION: 0px -204px
+}
+.nav-container .nav LI.five .split-line {
+	BACKGROUND-POSITION: 113px 1px
+}
+.nav-container .nav LI.circle-right {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -34px; FLOAT: right; WIDTH: 2px
+}
+.nav-container .nav2 {
+	HEIGHT: 34px; BACKGROUND: url(/static/widget/common/nav/img/nav_bg2_ea3e49e7.png) repeat-x
+}
+.nav-container .nav2 LI {
+	HEIGHT: 34px; FLOAT: left; DISPLAY: inline; LINE-HEIGHT: 34px
+}
+.nav-container .nav2 LI .split-line {
+	BACKGROUND: url(/static/widget/common/nav/img/line2_26f3e05f.png) no-repeat 98px 1px; DISPLAY: inline-block
+}
+.nav-container .nav2 LI A {
+	OVERFLOW: hidden; FONT-SIZE: 14px; FONT-FAMILY: "宋体"; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; TEXT-DECORATION: none; DISPLAY: inline-block; PADDING-RIGHT: 20px
+}
+.nav-container .nav2 LI A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -102px; TEXT-DECORATION: none
+}
+.nav-container .nav2 LI A.cur {
+	CURSOR: default; HEIGHT: 34px; BACKGROUND: url(/static/widget/common/nav/img/nav_cur2_273482b6.png) no-repeat; RIGHT: 2px; POSITION: relative; PADDING-LEFT: 26px; MARGIN-RIGHT: -2px
+}
+.nav-container .nav2 LI A.cur:hover {
+	HEIGHT: 34px; PADDING-LEFT: 26px; _right: 2px; _margin-right: -2px; _position: relative
+}
+.nav-container .nav2 LI.first {
+	CURSOR: default; HEIGHT: 34px; BACKGROUND: url(/static/widget/common/nav/img/nav_cur2_273482b6.png) no-repeat; RIGHT: 2px; POSITION: relative; PADDING-LEFT: 0px; MARGIN-RIGHT: -2px
+}
+.nav-container .nav2 LI.category {
+	POSITION: relative
+}
+.nav-container .nav2 LI.special {
+	POSITION: relative
+}
+.nav-container .nav2 LI.play {
+	POSITION: relative
+}
+.nav-container .nav2 LI.usergroup {
+	POSITION: relative
+}
+.nav-container .nav2 LI.category .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 85px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 15px; WIDTH: 0px
+}
+.nav-container .nav2 LI.special .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 85px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 15px; WIDTH: 0px
+}
+.nav-container .nav2 LI.play .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 85px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 15px; WIDTH: 0px
+}
+.nav-container .nav2 LI.usergroup .ico {
+	OVERFLOW: hidden; BORDER-TOP: #fff 4px solid; HEIGHT: 0px; BORDER-RIGHT: #2b6bac 4px solid; BACKGROUND: 0px 50%; BORDER-BOTTOM: #fff 0px solid; POSITION: absolute; LEFT: 85px; BORDER-LEFT: #2b6bac 4px solid; DISPLAY: block; TOP: 15px; WIDTH: 0px
+}
+.nav-container .nav2 LI.category .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 85px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 15px; WIDTH: 1px
+}
+.nav-container .nav2 LI.special .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 85px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 15px; WIDTH: 1px
+}
+.nav-container .nav2 LI.play .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 85px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 15px; WIDTH: 1px
+}
+.nav-container .nav2 LI.usergroup .ico-hover {
+	OVERFLOW: hidden; BORDER-TOP: #fff 0px solid; HEIGHT: 1px; BORDER-RIGHT: #255c94 4px solid; BORDER-BOTTOM: #fff 4px solid; POSITION: absolute; LEFT: 85px; BORDER-LEFT: #255c94 4px solid; DISPLAY: block; TOP: 15px; WIDTH: 1px
+}
+.nav-container .nav2 LI.category SPAN {
+	BACKGROUND-POSITION: 104px 1px
+}
+.nav-container .nav2 LI.special SPAN {
+	BACKGROUND-POSITION: 104px 1px
+}
+.nav-container .nav2 LI.play SPAN {
+	BACKGROUND-POSITION: 104px 1px
+}
+.nav-container .nav2 LI.usergroup SPAN {
+	BACKGROUND-POSITION: 104px 1px
+}
+.nav-container .nav2 LI.category A {
+	WIDTH: 66px
+}
+.nav-container .nav2 LI.special A {
+	WIDTH: 66px
+}
+.nav-container .nav2 LI.play A {
+	WIDTH: 66px
+}
+.nav-container .nav2 LI.usergroup A {
+	WIDTH: 66px
+}
+.nav-container .nav2 LI.category A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav2 LI.special A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav2 LI.play A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav2 LI.usergroup A:hover {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav2 LI.category A.on {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav2 LI.special A.on {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav2 LI.play A.on {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav2 LI.usergroup A.on {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -136px
+}
+.nav-container .nav2 LI.five A:hover {
+	BACKGROUND-POSITION: 0px -204px
+}
+.nav-container .nav2 LI.five .split-line {
+	BACKGROUND-POSITION: 113px 1px
+}
+.nav-container .nav2 LI.circle-right {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_hover_3b3103f8.png) no-repeat 0px -34px; FLOAT: right; WIDTH: 2px
+}
+.nav-container .subnav1 {
+	BORDER-TOP: #255b92 0px solid; BORDER-RIGHT: #255b92 1px solid; BACKGROUND: #fafcff; BORDER-BOTTOM: #255b92 1px solid; POSITION: absolute; PADDING-BOTTOM: 16px; PADDING-TOP: 4px; PADDING-LEFT: 20px; LEFT: 76px; BORDER-LEFT: #255b92 1px solid; Z-INDEX: 100; TOP: 41px; PADDING-RIGHT: 0px; WIDTH: 94px
+}
+.nav-container .subnavspecial {
+	BORDER-TOP: #255b92 0px solid; BORDER-RIGHT: #255b92 1px solid; BACKGROUND: #fafcff; BORDER-BOTTOM: #255b92 1px solid; POSITION: absolute; PADDING-BOTTOM: 16px; PADDING-TOP: 4px; PADDING-LEFT: 20px; LEFT: 76px; BORDER-LEFT: #255b92 1px solid; Z-INDEX: 100; TOP: 41px; PADDING-RIGHT: 0px; WIDTH: 94px
+}
+.nav-container .subnavplay {
+	BORDER-TOP: #255b92 0px solid; BORDER-RIGHT: #255b92 1px solid; BACKGROUND: #fafcff; BORDER-BOTTOM: #255b92 1px solid; POSITION: absolute; PADDING-BOTTOM: 16px; PADDING-TOP: 4px; PADDING-LEFT: 20px; LEFT: 76px; BORDER-LEFT: #255b92 1px solid; Z-INDEX: 100; TOP: 41px; PADDING-RIGHT: 0px; WIDTH: 94px
+}
+.nav-container .subnavusergroup {
+	BORDER-TOP: #255b92 0px solid; BORDER-RIGHT: #255b92 1px solid; BACKGROUND: #fafcff; BORDER-BOTTOM: #255b92 1px solid; POSITION: absolute; PADDING-BOTTOM: 16px; PADDING-TOP: 4px; PADDING-LEFT: 20px; LEFT: 76px; BORDER-LEFT: #255b92 1px solid; Z-INDEX: 100; TOP: 41px; PADDING-RIGHT: 0px; WIDTH: 94px
+}
+.nav-container .subnav1 LI {
+	FONT-SIZE: 12px; FLOAT: left; COLOR: #126ec1; MARGIN: 13px 0px 0px; WIDTH: 46px
+}
+.nav-container .subnavspecial LI {
+	FONT-SIZE: 12px; FLOAT: left; COLOR: #126ec1; MARGIN: 13px 0px 0px; WIDTH: 46px
+}
+.nav-container .subnavplay LI {
+	FONT-SIZE: 12px; FLOAT: left; COLOR: #126ec1; MARGIN: 13px 0px 0px; WIDTH: 46px
+}
+.nav-container .subnavusergroup LI {
+	FONT-SIZE: 12px; FLOAT: left; COLOR: #126ec1; MARGIN: 13px 0px 0px; WIDTH: 46px
+}
+.nav-container .subnav1 LI.cur {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.nav-container .subnavspecial LI.cur {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.nav-container .subnavplay LI.cur {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.nav-container .subnavusergroup LI.cur {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.nav-container .subnavspecial {
+	LEFT: 190px
+}
+.nav-container .subnavplay {
+	LEFT: 304px
+}
+.nav-container .subnavusergroup {
+	LEFT: 418px
+}
+.nav-container .subnavspecial {
+	PADDING-LEFT: 28px; WIDTH: 86px
+}
+.nav-container .subnavplay {
+	PADDING-LEFT: 28px; WIDTH: 86px
+}
+.nav-container .subnavusergroup {
+	PADDING-LEFT: 28px; WIDTH: 86px
+}
+.nav-container .subnavspecial LI {
+	FLOAT: none; DISPLAY: block; WIDTH: 100%
+}
+.nav-container .subnavplay LI {
+	FLOAT: none; DISPLAY: block; WIDTH: 100%
+}
+.nav-container .subnavusergroup LI {
+	FLOAT: none; DISPLAY: block; WIDTH: 100%
+}
+.nav-container .subnav {
+	OVERFLOW: hidden; BORDER-TOP: #ddd 0px solid; BORDER-RIGHT: #ddd 1px solid; BACKGROUND: #fafcff; BORDER-BOTTOM: #ddd 1px solid; ZOOM: 1; PADDING-BOTTOM: 5px; PADDING-TOP: 6px; PADDING-LEFT: 0px; BORDER-LEFT: #ddd 1px solid; Z-INDEX: 10000; PADDING-RIGHT: 0px
+}
+.nav-container .subnav LI {
+	FONT-SIZE: 12px; BACKGROUND: url(/static/widget/common/nav/img/subline_4c6f58a5.png) no-repeat 55px 6px; FLOAT: left; COLOR: #126ec1; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; WIDTH: 26px
+}
+.nav-container .subnav LI.cur {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.nav-container .subnav .sub-cur {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.nav-container .subnav2 {
+	BORDER-TOP: #255b92 0px solid; BORDER-RIGHT: #255b92 1px solid; BACKGROUND: #fafcff; BORDER-BOTTOM: #255b92 1px solid; POSITION: absolute; PADDING-BOTTOM: 16px; PADDING-TOP: 4px; PADDING-LEFT: 20px; LEFT: 70px; BORDER-LEFT: #255b92 1px solid; Z-INDEX: 100; TOP: 34px; PADDING-RIGHT: 0px; WIDTH: 86px
+}
+.nav-container .subnav2 LI {
+	FONT-SIZE: 12px; FLOAT: left; COLOR: #126ec1; MARGIN: 13px 0px 0px; WIDTH: 40px
+}
+.nav-container .subnav2 LI.cur {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.nav-container A {
+	TEXT-DECORATION: none
+}
+.index .top-wrap {
+	BACKGROUND: url(/static/widget/common/nav/img/nav_bg_68e4227a.png) repeat-x
+}
+.shortcutnav {
+	RIGHT: 8px; POSITION: absolute; Z-INDEX: 10; TOP: 8px
+}
+.shortcutnav LI {
+	FONT-SIZE: 14px; FONT-FAMILY: 'Microsoft YaHei',sans-serif; FLOAT: left; WIDTH: 80px
+}
+.shortcutnav LI A {
+	BACKGROUND: url(/static/common/img/quicknavbg_9d33134b.png) no-repeat 0px 50%; COLOR: #fff; PADDING-LEFT: 16px
+}
+.shortcutnav LI.last {
+	PADDING-LEFT: 16px; MARGIN-LEFT: 14px; BORDER-LEFT: #4990d8 1px solid
+}
+.shortcutnav LI.last A {
+	BACKGROUND-POSITION: -102px 50%
+}
+.nav-container .subnavspecial2 {
+	PADDING-LEFT: 22px; TOP: 34px
+}
+.nav-container .subnavplay2 {
+	PADDING-LEFT: 22px; TOP: 34px
+}
+.nav-container .subnavusergroup2 {
+	PADDING-LEFT: 22px; TOP: 34px
+}
+.nav-container .subnavspecial2 {
+	LEFT: 176px
+}
+.nav-container .subnavplay2 {
+	LEFT: 282px
+}
+.nav-container .subnavusergroup2 {
+	LEFT: 388px
+}
+.d-n {
+	DISPLAY: none
+}
+.nav_pad {
+	HEIGHT: 40px
+}
+.nav_pad LI {
+	HEIGHT: 40px; FLOAT: left; DISPLAY: inline-block; LINE-HEIGHT: 40px
+}
+.nav_pad LI A.arr {
+	BACKGROUND: url(/static/widget/common/nav_pad/img/arr_1debede7.png) #1f5299 no-repeat 0px 0px
+}
+.nav_pad LI A.arr1 {
+	BACKGROUND: url(/static/widget/common/nav_pad/img/arr_1debede7.png) #1f5299 no-repeat 0px -47px
+}
+.nav_pad LI A {
+	FONT-SIZE: 18px; HEIGHT: 40px; FONT-FAMILY: "宋体"; BORDER-RIGHT: #1b4786 1px solid; VERTICAL-ALIGN: middle; COLOR: #fff; TEXT-ALIGN: center; TEXT-DECORATION: none; DISPLAY: inline-block; WIDTH: 170px; BACKGROUND-COLOR: #1f5299
+}
+.nav_pad LI A:link {
+	COLOR: #fff !important
+}
+.nav_pad LI A:visited {
+	COLOR: #fff !important
+}
+.nav_pad LI A:hover {
+	TEXT-DECORATION: none
+}
+.nav_pad LI A.cur {
+	HEIGHT: 40px; WIDTH: 168px; BACKGROUND-COLOR: #173d73
+}
+.subnav_pad {
+	HEIGHT: 40px; BACKGROUND: #d8e0eb; LINE-HEIGHT: 40px; WIDTH: 1024px
+}
+.subnav_pad LI:first-child {
+	MARGIN-LEFT: 22px
+}
+.subnav_pad LI {
+	HEIGHT: 40px; FLOAT: left; MARGIN: 0px 20px; DISPLAY: inline-block; LINE-HEIGHT: 40px
+}
+.subnav_pad LI A {
+	FONT-SIZE: 16px; BORDER-TOP: #d8e0eb 1px solid; HEIGHT: 24px; BORDER-RIGHT: #d8e0eb 1px solid; BORDER-BOTTOM: #d8e0eb 1px solid; COLOR: #3d3e3f !important; TEXT-ALIGN: center; TEXT-DECORATION: none; BORDER-LEFT: #d8e0eb 1px solid; DISPLAY: inline-block; LINE-HEIGHT: 24px; WIDTH: 50px
+}
+.subnav_pad LI A:hover {
+	BORDER-TOP: #a6b5c5 1px solid; BORDER-RIGHT: #a6b5c5 1px solid; BORDER-BOTTOM: #a6b5c5 1px solid; TEXT-DECORATION: none; BORDER-LEFT: #a6b5c5 1px solid; BACKGROUND-COLOR: #bec9d4
+}
+.clearfix {
+	CLEAR: both
+}
+
+@media Unknown    
+{
+.nav_pad {
+	WIDTH: 768px
+}
+.nav_pad LI A.arr {
+	BACKGROUND: url(/static/widget/common/nav_pad/img/arr_1debede7.png) #1f5299 no-repeat -24px 0px
+}
+.nav_pad LI A.arr1 {
+	BACKGROUND: url(/static/widget/common/nav_pad/img/arr_1debede7.png) #1f5299 no-repeat -24px -47px
+}
+.nav_pad LI A {
+	FONT-SIZE: 18px; HEIGHT: 40px; FONT-FAMILY: 宋体; BORDER-RIGHT: #1b4786 1px solid; VERTICAL-ALIGN: middle; COLOR: #fff !important; TEXT-ALIGN: center; TEXT-DECORATION: none; DISPLAY: inline-block; WIDTH: 127px; BACKGROUND-COLOR: #1f5299
+}
+.nav_pad LI A:hover {
+	TEXT-DECORATION: none
+}
+.nav_pad LI A.cur {
+	HEIGHT: 40px; WIDTH: 125px; BACKGROUND-COLOR: #173d73
+}
+.nav_pad LI A.last {
+	WIDTH: 128px
+}
+.subnav_pad {
+	HEIGHT: 40px; BACKGROUND: #d8e0eb; LINE-HEIGHT: 40px; WIDTH: 768px
+}
+.subnav_pad LI:first-child {
+	MARGIN-LEFT: 12px
+}
+.subnav_pad LI {
+	HEIGHT: 40px; FLOAT: left; MARGIN: 0px 4px; DISPLAY: inline-block; LINE-HEIGHT: 40px
+}
+.subnav_pad LI A {
+	FONT-SIZE: 16px; BORDER-TOP: #d8e0eb 1px solid; HEIGHT: 24px; BORDER-RIGHT: #d8e0eb 1px solid; BORDER-BOTTOM: #d8e0eb 1px solid; COLOR: #3d3e3f !important; TEXT-ALIGN: center; TEXT-DECORATION: none; BORDER-LEFT: #d8e0eb 1px solid; DISPLAY: inline-block; LINE-HEIGHT: 24px; WIDTH: 58px
+}
+.subnav_pad LI A:hover {
+	BORDER-TOP: #a6b5c5 1px solid; BORDER-RIGHT: #a6b5c5 1px solid; BORDER-BOTTOM: #a6b5c5 1px solid; TEXT-DECORATION: none; BORDER-LEFT: #a6b5c5 1px solid; BACKGROUND-COLOR: #bec9d4
+}
+    }
+#search {
+	MARGIN-BOTTOM: 15px; POSITION: relative; PADDING-TOP: 16px; Z-INDEX: 2; WIDTH: 810px
+}
+#logo {
+	FLOAT: left
+}
+#search-content {
+	FLOAT: left
+}
+#help {
+	FLOAT: left
+}
+#logo {
+	POSITION: relative; ZOOM: 1; MARGIN-TOP: 7px; WIDTH: 152px
+}
+#search A {
+	COLOR: #2d64b3; TEXT-DECORATION: underline
+}
+#logo IMG {
+	DISPLAY: block
+}
+#search-content {
+	WIDTH: 611px
+}
+#search-content P.nv {
+	HEIGHT: 20px; LINE-HEIGHT: 20px
+}
+.nv {
+	MARGIN: 0px 0px 5px
+}
+.nv A {
+	FONT-SIZE: 14px; FONT-FAMILY: arial; MARGIN-RIGHT: 12px
+}
+.nv STRONG {
+	FONT-SIZE: 14px; FONT-FAMILY: arial; MARGIN-RIGHT: 10px
+}
+#search FORM {
+	POSITION: relative; CLEAR: both; MARGIN: 0px; Z-INDEX: 0
+}
+#search .s_ipt {
+	BORDER-LEFT-WIDTH: 0px; HEIGHT: 22px; BORDER-RIGHT-WIDTH: 0px; BACKGROUND: white; BORDER-BOTTOM-WIDTH: 0px; OUTLINE-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 16px/22px arial; PADDING-LEFT: 0px; MARGIN: 5px 0px 0px 7px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 398px; -webkit-appearance: none
+}
+#search .s_ipt_wr {
+	BORDER-TOP: #a7a7a7 1px solid; HEIGHT: 30px; BORDER-RIGHT: #c7c7c7 1px solid; VERTICAL-ALIGN: top; BORDER-BOTTOM: #cdcdcd 1px solid; BORDER-LEFT: #c3c3c3 1px solid; DISPLAY: inline-block; WIDTH: 408px; MARGIN-RIGHT: 5px
+}
+#search .s_btn {
+	BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; FONT-SIZE: 14px; HEIGHT: 32px; BORDER-RIGHT-WIDTH: 0px; BACKGROUND: url(/static/common/img/search_bg_a292c789.png) #ddd; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; WIDTH: 95px
+}
+#help {
+	FONT-SIZE: 12px; COLOR: #999; MARGIN: 33px 0px 0px
+}
+.c-help {
+	MARGIN: 0px 7px
+}
+.tangram-suggestion-main {
+	OVERFLOW: hidden; CURSOR: default; BORDER-TOP: #817f82 1px solid; BORDER-RIGHT: #817f82 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #817f82 1px solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: #817f82 1px solid; WIDTH: 408px !important
+}
+.tang-suggestion-popup {
+	OVERFLOW: hidden; CURSOR: default; BORDER-TOP: #817f82 1px solid; BORDER-RIGHT: #817f82 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #817f82 1px solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: #817f82 1px solid; WIDTH: 408px !important
+}
+.tangram-suggestion-main TABLE {
+	CURSOR: default; FONT-SIZE: 14px; WIDTH: 100%
+}
+.tang-suggestion-popup TABLE {
+	CURSOR: default; FONT-SIZE: 14px; WIDTH: 100%
+}
+.tangram-suggestion-main TABLE TD {
+	HEIGHT: 25px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 700 14px/25px arial; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+.tang-suggestion-popup TABLE TD {
+	HEIGHT: 25px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 700 14px/25px arial; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+.tang-foreground .tang-suggestion-append {
+	BORDER-TOP: #ebebeb 1px solid; HEIGHT: 23px; COLOR: #c0c0c0; PADDING-BOTTOM: 0px; TEXT-ALIGN: right; PADDING-TOP: 0px; FONT: 12px verdana; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+.tang-foreground .tang-suggestion-append A {
+	FONT-SIZE: 12px; COLOR: #888; TEXT-DECORATION: underline; LINE-HEIGHT: 22px
+}
+.tang-suggestion-table TD B {
+	FONT-WEIGHT: 400; COLOR: #000
+}
+.tang-suggestion-current {
+	BACKGROUND: #ddd
+}
+.tangram-suggestion-main {
+	OVERFLOW: hidden; CURSOR: default; BORDER-TOP: #817f82 1px solid; BORDER-RIGHT: #817f82 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #817f82 1px solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: #817f82 1px solid; Z-INDEX: 50001; WIDTH: 408px !important
+}
+.tangram-suggestion-main TABLE {
+	CURSOR: default; FONT-SIZE: 14px; WIDTH: 100%
+}
+.tangram-suggestion-main TABLE TD {
+	HEIGHT: 25px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 700 14px/25px arial; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+.tangram-suggestion-main TABLE TD B {
+	FONT-WEIGHT: 400; COLOR: #000
+}
+.tangram-suggestion-append {
+	BORDER-TOP: #ebebeb 1px solid; HEIGHT: 23px; COLOR: #c0c0c0; PADDING-BOTTOM: 0px; TEXT-ALIGN: right; PADDING-TOP: 0px; FONT: 12px verdana; PADDING-LEFT: 8px; PADDING-RIGHT: 8px
+}
+.tangram-suggestion-append A {
+	FONT-SIZE: 12px; COLOR: #888; TEXT-DECORATION: underline; LINE-HEIGHT: 22px
+}
+.tangram-suggestion-current {
+	BACKGROUND: #ddd
+}
+.index_pad .tangram-suggestion-main {
+	MARGIN-LEFT: -1px; WIDTH: 734px !important
+}
+.index_pad .tangram-suggestion-main {
+	MARGIN-LEFT: -1px; WIDTH: 734px !important
+}
+.index_pad .tang-suggestion-popup {
+	MARGIN-LEFT: -1px; WIDTH: 734px !important
+}
+.index_pad #search {
+	BACKGROUND: #f5f5f5; BORDER-BOTTOM: #d4d4d4 1px solid; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 22px; MARGIN: 0px; PADDING-RIGHT: 22px; WIDTH: auto
+}
+.index_pad #search .s_ipt_wr {
+	HEIGHT: 38px; BORDER-TOP-COLOR: #979797; BACKGROUND: #fff; POSITION: relative; BORDER-BOTTOM-COLOR: #979797; BORDER-RIGHT-COLOR: #979797; WIDTH: 734px; MARGIN-RIGHT: 0px; BORDER-LEFT-COLOR: #979797; box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2)
+}
+.index_pad #search .s_ipt {
+	HEIGHT: 30px; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 724px
+}
+UNKNOWN {
+	MARGIN-RIGHT: 0px !important
+}
+.index_pad #search .s_btn {
+	CURSOR: pointer; FONT-SIZE: 18px; BORDER-TOP: #979797 1px solid; HEIGHT: 40px; BORDER-RIGHT: #979797 1px solid; BACKGROUND: url(/static/widget/common/search/img/btn_34abd996.png) no-repeat 0px 0px; BORDER-BOTTOM: #979797 1px solid; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN-LEFT: -1px; BORDER-LEFT: #979797 1px solid; PADDING-RIGHT: 0px; WIDTH: 113px; MARGIN-RIGHT: 6px !important; border-radius: 0; box-shadow: 1px 1px 0 #fff inset
+}
+.index_pad #search .s_tools {
+	DISPLAY: none
+}
+.index_pad #search .btn_clear {
+	HEIGHT: 20px; RIGHT: 12px; POSITION: absolute; DISPLAY: block; TOP: 5px; WIDTH: 20px
+}
+.index_pad #search {
+	MARGIN-LEFT: 0px !important
+}
+.index_pad #wrap #header {
+	MARGIN-TOP: 0px
+}
+.index_pad #header #logo {
+	FLOAT: none; MARGIN-TOP: 0px; WIDTH: 117px
+}
+.index_pad #header #logo A {
+	HEIGHT: 38px; BACKGROUND: url(/static/widget/common/search/img/logo-baike_00ed678d.png) no-repeat 0px 0px; DISPLAY: block; WIDTH: 120px
+}
+.index_pad #header #logo A IMG {
+	DISPLAY: none
+}
+.index_pad #header #search-content {
+	MARGIN-TOP: -19px; WIDTH: auto
+}
+.index_pad #header #search-content .nv {
+	MARGIN-BOTTOM: 5px; MARGIN-LEFT: 137px
+}
+.index_pad #header #search-content .nv A {
+	FONT-SIZE: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 19px; PADDING-LEFT: 13px; TEXT-DECORATION: none; MARGIN: 0px; PADDING-RIGHT: 13px
+}
+.index_pad #header #search-content .nv STRONG {
+	FONT-SIZE: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 19px; PADDING-LEFT: 13px; TEXT-DECORATION: none; MARGIN: 0px; PADDING-RIGHT: 13px
+}
+.index_pad #gsst_a {
+	CURSOR: pointer; HEIGHT: 30px; RIGHT: 10px; POSITION: absolute; TOP: 5px; WIDTH: 30px
+}
+.index_pad #header .history-word {
+	BORDER-TOP: #979797 0px solid; BORDER-RIGHT: #979797 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #979797 1px solid; POSITION: absolute; LEFT: -1px; BORDER-LEFT: #979797 1px solid; DISPLAY: none; TOP: 39px; WIDTH: 100%
+}
+.index_pad #header .history-word LI {
+	FONT-SIZE: 18px; BACKGROUND: #fff; BORDER-BOTTOM: #dbdbdb 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; LINE-HEIGHT: 40px; PADDING-RIGHT: 10px
+}
+.index_pad #header .history-word .btns {
+	FONT-SIZE: 14px; BORDER-BOTTOM-WIDTH: 0px; TEXT-ALIGN: right
+}
+.index_pad #header .history-word .btns A {
+	COLOR: #777
+}
+.index_pad #header .history-word .btns #btn-clear-history {
+	FLOAT: left
+}
+.index_pad .tangram-suggestion-main TD {
+	FONT-SIZE: 18px; BORDER-BOTTOM: #dbdbdb 1px solid; LINE-HEIGHT: 40px
+}
+.index_pad .tang-suggestion-popup TD {
+	FONT-SIZE: 18px; BORDER-BOTTOM: #dbdbdb 1px solid; LINE-HEIGHT: 40px
+}
+.index_pad .tangram-suggestion-append {
+	HEIGHT: 40px; BORDER-TOP-WIDTH: 0px
+}
+.index_pad .tang-suggestion-append {
+	HEIGHT: 40px; BORDER-TOP-WIDTH: 0px
+}
+.index_pad .tangram-suggestion-append A {
+	FONT-SIZE: 14px; TEXT-DECORATION: underline; LINE-HEIGHT: 40px
+}
+.index_pad .tang-suggestion-append A {
+	FONT-SIZE: 14px; TEXT-DECORATION: underline; LINE-HEIGHT: 40px
+}
+.index_pad #help {
+	DISPLAY: none
+}
+.index_pad #userbar .mn-lk {
+	BACKGROUND-POSITION: right 11px; PADDING-TOP: 5px
+}
+.index_pad #userbar .mn-tip A {
+	LINE-HEIGHT: 32px
+}
+.index_pad .mn-tip .mn A {
+	PADDING-BOTTOM: 3px; PADDING-TOP: 3px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px
+}
+.index_pad .mn-tip {
+	WIDTH: auto !important
+}
+.index_pad #pbarInfo {
+	DISPLAY: none !important
+}
+.index_pad #my-home-container {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-RIGHT: 0px !important
+}
+
+@media Unknown    
+{
+.index_pad .tangram-suggestion-main {
+	MARGIN-LEFT: -1px; WIDTH: 480px !important
+}
+.index_pad .tang-suggestion-popup {
+	MARGIN-LEFT: -1px; WIDTH: 480px !important
+}
+.index_pad #search .s_ipt_wr {
+	WIDTH: 480px !important
+}
+.index_pad #search .s_ipt {
+	WIDTH: 480px !important
+}
+.index_pad .wiki-search .s_ipt_wr {
+	WIDTH: 480px !important
+}
+.index_pad .wiki-search .s_ipt {
+	WIDTH: 480px !important
+}
+    }
+.page {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 30px; FONT-SIZE: 14px; FONT-FAMILY: arial; ZOOM: 1; TEXT-ALIGN: center
+}
+.page FORM {
+	DISPLAY: inline-block
+}
+.page A {
+	BORDER-TOP: #e7ecf0 1px solid; HEIGHT: 24px; FONT-FAMILY: Arial; BORDER-RIGHT: #e7ecf0 1px solid; BORDER-BOTTOM: #e7ecf0 1px solid; COLOR: #136ec2; TEXT-ALIGN: center; MARGIN: 0px 5px 0px 0px; BORDER-LEFT: #e7ecf0 1px solid; DISPLAY: inline-block; LINE-HEIGHT: 24px; WIDTH: 26px
+}
+.page A:hover {
+	BACKGROUND: #e9f0f6 0px 0px
+}
+.page .page-Index {
+	ZOOM: 1; DISPLAY: inline
+}
+.page SPAN {
+	FONT-WEIGHT: bold; COLOR: #000; TEXT-ALIGN: center; MARGIN: 0px 5px 0px 0px; DISPLAY: inline-block; LINE-HEIGHT: 24px; WIDTH: 26px
+}
+.page .pre {
+	FONT-FAMILY: "宋体"; FONT-WEIGHT: normal; DISPLAY: inline-block; WIDTH: 65px
+}
+.page .next {
+	FONT-FAMILY: "宋体"; FONT-WEIGHT: normal; DISPLAY: inline-block; WIDTH: 65px
+}
+UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LI {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#userbar {
+	RIGHT: 10px; POSITION: absolute; ZOOM: 1; COLOR: #000; TEXT-ALIGN: right; FONT: 12px/18px Arial; Z-INDEX: 250; TOP: 3px
+}
+#userbar IMG {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+#userbar .uname IMG {
+	VERTICAL-ALIGN: middle; DISPLAY: inline
+}
+#userbar A {
+	COLOR: #00c; MARGIN-LEFT: 6px; TEXT-DECORATION: underline
+}
+#userbar UL {
+	LIST-STYLE-TYPE: none
+}
+#userbar LI {
+	FLOAT: left
+}
+#userbar .red {
+	COLOR: red
+}
+#userbar .uname {
+	FONT-WEIGHT: 700; COLOR: #00c
+}
+#login-user-name {
+	CURSOR: pointer; COLOR: #00c; TEXT-DECORATION: underline
+}
+#userbar .utitle {
+	MARGIN-LEFT: 6px
+}
+#userbar .line {
+	OVERFLOW: hidden; HEIGHT: 12px; BACKGROUND: #999; COLOR: #999; MARGIN: 3px 0px 0px 6px; DISPLAY: inline; WIDTH: 1px
+}
+#userbar .split {
+	COLOR: #999; MARGIN-LEFT: 6px
+}
+#userbar .msgs {
+	COLOR: #00c
+}
+#userbar .msgs SPAN {
+	COLOR: #f00
+}
+#userbar .mn-lk-w {
+	POSITION: relative
+}
+#userbar .mn-lk {
+	BACKGROUND: url(http://img.baidu.com/img/baike/logo/mn.png) no-repeat right 4px; DISPLAY: inline-block; PADDING-RIGHT: 11px
+}
+#userbar .userbar-msg {
+	WHITE-SPACE: nowrap; COLOR: #00c; MARGIN-LEFT: 6px; TEXT-DECORATION: underline
+}
+.mn-tip {
+	BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; BACKGROUND: #fff; BORDER-BOTTOM: #999 1px solid; POSITION: absolute; FONT-WEIGHT: normal; COLOR: #888; TEXT-ALIGN: left; BORDER-LEFT: #999 1px solid; DISPLAY: none; TOP: 21px; box-shadow: 1px 1px 2px #ccc; -moz-box-shadow: 1px 1px 2px #ccc; -webkit-box-shadow: 1px 1px 2px #ccc
+}
+#userbar .mn-tip A {
+	FONT-SIZE: 12px; MARGIN-LEFT: 0px; TEXT-DECORATION: none
+}
+.mn-tip .mn LI {
+	WHITE-SPACE: nowrap; FLOAT: left; WIDTH: 100%
+}
+.mn-tip .mn A {
+	ZOOM: 1; PADDING-BOTTOM: 2px; PADDING-TOP: 4px; PADDING-LEFT: 6px; TEXT-DECORATION: none; DISPLAY: block; PADDING-RIGHT: 6px; _padding-bottom: 1px
+}
+.mn-tip .mn A:hover {
+	BACKGROUND: #ebebeb
+}
+.mn-tip .mn .my-info {
+	BORDER-BOTTOM: #ebebeb 1px solid
+}
+.mn-tip .split {
+	OVERFLOW: hidden; HEIGHT: 1px; BACKGROUND: #ebebeb
+}
+.mn-tip .help {
+	PADDING-BOTTOM: 6px; PADDING-TOP: 6px; PADDING-LEFT: 6px; LINE-HEIGHT: 18px; PADDING-RIGHT: 6px
+}

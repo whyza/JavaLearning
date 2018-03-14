@@ -1,0 +1,16 @@
+1-javabase
+2-oop
+3-api
+4-gui===
+
+Graphic User Interface=======
+
+
+1-如何创建界面
+2-如何设置界面参数
+3-如何使用布局方式
+4-如何使用控件（JB JL JT JP）
+5-null布局的使用，
+控件.setBounds(左,上,宽,高);
+
+

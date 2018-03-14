@@ -1,0 +1,6 @@
+File
+FileInputStream: 文件字节输入流
+FileOutputStream：文件字节输出流
+
+-------------------------
+字符
